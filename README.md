@@ -75,13 +75,33 @@ I will extract the details, booth, series, merchandise, and preview image, and u
 
 ---
 
-### 2. Using the Automated Helper Scripts
+### 2. Automated Social Media Scraping & Ingestion
 
-#### A. Add / Update a Single Artist
+#### A. Scrape & Add a Single Vendor from Twitter/X or Instagram
+```bash
+python scripts/scrape_vendor.py https://x.com/artist/status/123456789
+python scripts/scrape_vendor.py https://www.instagram.com/p/DFxyz123/ --booth "Table 15"
+```
+Automatically extracts artist name, handle, booth/table number, bio, preview images (downloaded directly to `assets/catalogs/<artist_id>/`), avatar, series tags, and merch tags, and updates `data/artists.json`.
+
+#### B. Batch Ingest from `data/pending/`
+Simply paste a list of Twitter or Instagram URLs into a text file in `data/pending/` (e.g., `data/pending/vendors.txt`):
+```text
+https://x.com/forks/status/2113061418358706442
+https://x.com/mikou_art/status/2026850409953493213
+https://www.instagram.com/p/DVx8T_6EnFm/
+```
+Then run:
+```bash
+python scripts/ingest_pending.py
+```
+This batch processes all URLs, downloads all images locally, updates `data/artists.json`, cleans up the pending file, and automatically runs data validation.
+
+#### C. Manual Add / Update via CLI
 ```bash
 python scripts/add_artist.py \
   --name "Aki Studio" \
-  --booth "B14" \
+  --booth "Table 14" \
   --con "trackside-2026" \
   --twitter "https://x.com/akistudio/status/1888999999" \
   --series "Sousou no Frieren, Genshin Impact, Dungeon Meshi" \
@@ -90,22 +110,7 @@ python scripts/add_artist.py \
   --verified
 ```
 
-#### B. Batch Import from Document or Markdown Table
-If you have a document or text block like:
-```text
-Booth: C04
-Artist: Pixel Blossom
-Twitter: https://x.com/pixelblossom
-Series: Pokemon, Legend of Zelda
-Merch: Pins & Badges, Stickers
-Bio: Cozy pixel art stickers and enamel pins.
-```
-Run:
-```bash
-python scripts/import_doc.py path/to/document.txt trackside-2026
-```
-
-#### C. Validate Data Integrity
+#### D. Validate Data Integrity
 ```bash
 python scripts/validate_data.py
 ```
@@ -142,11 +147,17 @@ TracksideCatalog/
 │   ├── conventions.json        # Convention metadata & floor map configurations
 │   ├── artists.json            # Main database of artists
 │   ├── rallies.json            # Stamp rallies database
-│   └── merch_categories.json   # Standard merchandise categories
+│   ├── merch_categories.json   # Standard merchandise categories
+│   └── pending/                # Drop lists of vendor links here for ingestion
 ├── assets/
-│   └── icons/favicon.svg       # Brand vector icon
+│   ├── icons/favicon.svg       # Brand vector icon
+│   ├── avatars/                # Local artist avatars
+│   └── catalogs/               # Local catalog images by artist
 └── scripts/
-    ├── add_artist.py           # CLI tool to add/update an artist
+    ├── scraper.py              # Social media extraction engine (Twitter/X, Instagram)
+    ├── scrape_vendor.py        # CLI single vendor scraper
+    ├── ingest_pending.py       # Batch pending file ingester
+    ├── add_artist.py           # CLI tool to manually add/update an artist
     ├── import_doc.py           # Document/text parser for batch submissions
     └── validate_data.py        # Schema and validation checker
 ```
