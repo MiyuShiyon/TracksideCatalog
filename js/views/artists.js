@@ -3,7 +3,7 @@ import { Store } from "../data.js";
 import { FilterState, filterAndSortArtists } from "../search.js";
 import { Favorites } from "../utils.js";
 import { Icons } from "../components/icons.js";
-import { openArtistModal } from "./modal.js";
+import { openArtistModal, openGalleryLightbox } from "./modal.js";
 import { showToast } from "../components/toast.js";
 
 let currentLayout = "grid"; // "grid" | "compact"
@@ -147,8 +147,8 @@ function renderArtistCard(artist) {
 
         ${images.length > 0 ? `
           <div class="artist-card-images">
-            ${images.slice(0, 3).map(img => `
-              <img class="card-img-thumb" src="${escapeHtml(img.url)}" alt="${escapeHtml(img.caption || artist.name)}" loading="lazy"/>
+            ${images.slice(0, 3).map((img, idx) => `
+              <img class="card-img-thumb" src="${escapeHtml(img.url)}" alt="${escapeHtml(img.caption || artist.name)}" loading="lazy" data-artist-id="${escapeHtml(artist.id)}" data-img-index="${idx}" title="Zoom image preview"/>
             `).join("")}
           </div>
         ` : ""}
@@ -181,10 +181,23 @@ function renderEmptyState() {
 }
 
 function attachArtistsEvents(container) {
+  // Direct thumbnail click -> open full-screen gallery lightbox
+  container.querySelectorAll(".card-img-thumb").forEach(thumb => {
+    thumb.addEventListener("click", e => {
+      e.stopPropagation();
+      const artistId = thumb.dataset.artistId;
+      const imgIndex = parseInt(thumb.dataset.imgIndex, 10) || 0;
+      const artist = Store.getArtistById(artistId);
+      if (artist && artist.images && artist.images.length > 0) {
+        openGalleryLightbox(artist.images, imgIndex, artist.name);
+      }
+    });
+  });
+
   // Card click -> open detail modal
   container.querySelectorAll(".artist-card").forEach(card => {
     card.addEventListener("click", e => {
-      if (e.target.closest(".btn-favorite") || e.target.closest(".tag-pill")) return;
+      if (e.target.closest(".btn-favorite") || e.target.closest(".tag-pill") || e.target.closest(".card-img-thumb")) return;
       const artistId = card.dataset.id;
       openArtistModal(artistId);
     });

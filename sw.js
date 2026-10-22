@@ -1,5 +1,5 @@
 // Service Worker for Trackside Catalog PWA
-const CACHE_NAME = 'trackside-catalog-v1';
+const CACHE_NAME = 'trackside-catalog-v2';
 const STATIC_ASSETS = [
   './',
   './index.html',
@@ -56,27 +56,35 @@ self.addEventListener('fetch', event => {
   if (url.pathname.endsWith('.json')) {
     event.respondWith(
       fetch(event.request).then(response => {
-        const cloned = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, cloned));
+        if (response && response.status === 200) {
+          const cloned = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, cloned).catch(() => {});
+          }).catch(() => {});
+        }
         return response;
       }).catch(() => caches.match(event.request))
     );
     return;
   }
 
-  // Cache first for static assets
+  // Cache first for static assets, network fallback with safe error recovery
   event.respondWith(
     caches.match(event.request).then(cached => {
       return cached || fetch(event.request).then(response => {
-        return caches.open(CACHE_NAME).then(cache => {
-          cache.put(event.request, response.clone());
-          return response;
-        });
+        if (response && response.status === 200 && response.type === 'basic') {
+          const cloned = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, cloned).catch(() => {});
+          }).catch(() => {});
+        }
+        return response;
       });
-    }).catch(() => {
+    }).catch(err => {
       if (event.request.mode === 'navigate') {
         return caches.match('./index.html');
       }
+      return fetch(event.request);
     })
   );
 });

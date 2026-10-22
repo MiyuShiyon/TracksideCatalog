@@ -11,6 +11,12 @@ let modalBackdrop = null;
 let filterBackdrop = null;
 let lightboxBackdrop = null;
 
+// Lightbox Gallery State
+let currentGallery = [];
+let currentGalleryIndex = 0;
+let currentGalleryArtistName = "";
+let activeImageRequestId = 0;
+
 export function initModals() {
   modalBackdrop = document.getElementById("artistModalBackdrop");
   filterBackdrop = document.getElementById("filterDrawerBackdrop");
@@ -30,17 +36,75 @@ export function initModals() {
   }
 
   if (lightboxBackdrop) {
+    // Click outside image or on close button to close
     lightboxBackdrop.addEventListener("click", e => {
-      if (e.target === lightboxBackdrop || e.target.closest("#btnLightboxClose")) {
+      const isCloseBtn = e.target.closest("#btnLightboxClose");
+      const isNavBtn = e.target.closest(".lightbox-nav-btn");
+      const isImg = e.target.closest("#lightboxImg");
+      const isError = e.target.closest("#lightboxError");
+
+      if (isCloseBtn || (!isNavBtn && !isImg && !isError)) {
         closeLightbox();
       }
     });
+
+    const btnPrev = lightboxBackdrop.querySelector("#btnLightboxPrev");
+    if (btnPrev) {
+      btnPrev.addEventListener("click", e => {
+        e.stopPropagation();
+        prevGallerySlide();
+      });
+    }
+
+    const btnNext = lightboxBackdrop.querySelector("#btnLightboxNext");
+    if (btnNext) {
+      btnNext.addEventListener("click", e => {
+        e.stopPropagation();
+        nextGallerySlide();
+      });
+    }
+
+    // Touch swipe support for mobile
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    lightboxBackdrop.addEventListener("touchstart", e => {
+      if (e.touches && e.touches[0]) {
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+      }
+    }, { passive: true });
+
+    lightboxBackdrop.addEventListener("touchend", e => {
+      if (e.changedTouches && e.changedTouches[0]) {
+        const diffX = e.changedTouches[0].clientX - touchStartX;
+        const diffY = e.changedTouches[0].clientY - touchStartY;
+        // Horizontal swipe detected if deltaX > 40px and dominant over vertical
+        if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
+          if (diffX < 0) {
+            nextGallerySlide();
+          } else {
+            prevGallerySlide();
+          }
+        }
+      }
+    }, { passive: true });
   }
 
-  // Keyboard Escape
+  // Keyboard Navigation
   window.addEventListener("keydown", e => {
+    if (lightboxBackdrop && lightboxBackdrop.classList.contains("visible")) {
+      if (e.key === "Escape") {
+        closeLightbox();
+      } else if (e.key === "ArrowLeft") {
+        prevGallerySlide();
+      } else if (e.key === "ArrowRight") {
+        nextGallerySlide();
+      }
+      return;
+    }
+
     if (e.key === "Escape") {
-      closeLightbox();
       closeArtistModal();
       closeFilterDrawer();
     }
@@ -112,8 +176,8 @@ export function openArtistModal(artistId) {
         <div>
           <div class="modal-section-title">Catalog &amp; Art Previews (${images.length})</div>
           <div class="modal-gallery-grid">
-            ${images.map(img => `
-              <div class="gallery-item" data-full="${escapeHtml(img.url)}" data-caption="${escapeHtml(img.caption || artist.name)}">
+            ${images.map((img, idx) => `
+              <div class="gallery-item" data-index="${idx}" title="Zoom image">
                 <img src="${escapeHtml(img.url)}" alt="${escapeHtml(img.caption || artist.name)}" loading="lazy"/>
                 <div class="gallery-overlay-icon">${Icons.zoomIn}</div>
               </div>
@@ -182,10 +246,11 @@ export function openArtistModal(artistId) {
     });
   }
 
-  // Gallery click -> lightbox
+  // Gallery click -> lightbox with full gallery sequence
   dialog.querySelectorAll(".gallery-item").forEach(item => {
     item.addEventListener("click", () => {
-      openLightbox(item.dataset.full, item.dataset.caption);
+      const idx = parseInt(item.dataset.index, 10) || 0;
+      openGalleryLightbox(images, idx, artist.name);
     });
   });
 
@@ -471,25 +536,144 @@ function attachFilterDrawerEvents(drawer) {
 }
 
 // ==========================================================================
-// Lightbox
+// Lightbox (Single & Multi-Image Gallery with Safe Preloading)
 // ==========================================================================
-export function openLightbox(url, caption = "") {
+
+export function openGalleryLightbox(images, startIndex = 0, artistName = "") {
   if (!lightboxBackdrop) return;
 
-  const captionEl = lightboxBackdrop.querySelector(".lightbox-caption");
-  const imgEl = lightboxBackdrop.querySelector(".lightbox-img");
+  currentGallery = Array.isArray(images) && images.length > 0 ? images : [];
+  if (currentGallery.length === 0) return;
 
-  if (captionEl) captionEl.textContent = caption;
-  if (imgEl) imgEl.src = url;
+  currentGalleryIndex = Math.max(0, Math.min(startIndex, currentGallery.length - 1));
+  currentGalleryArtistName = artistName || "";
 
   lightboxBackdrop.classList.add("visible");
   document.body.style.overflow = "hidden";
+
+  showGallerySlide(currentGalleryIndex);
+}
+
+// Backwards-compatible single-image caller
+export function openLightbox(url, caption = "") {
+  if (!url) return;
+  openGalleryLightbox([{ url, caption }], 0, caption);
+}
+
+export function showGallerySlide(index) {
+  if (!lightboxBackdrop || currentGallery.length === 0) return;
+
+  if (index < 0) index = currentGallery.length - 1;
+  if (index >= currentGallery.length) index = 0;
+  currentGalleryIndex = index;
+
+  const currentItem = currentGallery[currentGalleryIndex];
+  if (!currentItem) return;
+
+  const captionEl = lightboxBackdrop.querySelector("#lightboxCaption");
+  const counterEl = lightboxBackdrop.querySelector("#lightboxCounter");
+  const imgEl = lightboxBackdrop.querySelector("#lightboxImg");
+  const spinnerEl = lightboxBackdrop.querySelector("#lightboxSpinner");
+  const errorEl = lightboxBackdrop.querySelector("#lightboxError");
+  const btnPrev = lightboxBackdrop.querySelector("#btnLightboxPrev");
+  const btnNext = lightboxBackdrop.querySelector("#btnLightboxNext");
+
+  // Update text & counter
+  const title = currentItem.caption || currentGalleryArtistName || "Catalog Preview";
+  if (captionEl) captionEl.textContent = title;
+  if (counterEl) {
+    if (currentGallery.length > 1) {
+      counterEl.textContent = `${currentGalleryIndex + 1} / ${currentGallery.length}`;
+      counterEl.style.display = "inline-block";
+    } else {
+      counterEl.style.display = "none";
+    }
+  }
+
+  // Toggle prev/next buttons
+  const showNav = currentGallery.length > 1;
+  if (btnPrev) btnPrev.style.display = showNav ? "flex" : "none";
+  if (btnNext) btnNext.style.display = showNav ? "flex" : "none";
+
+  // Hide error, show spinner, and hide current image while new one loads
+  if (errorEl) errorEl.style.display = "none";
+  if (spinnerEl) spinnerEl.style.display = "block";
+  if (imgEl) {
+    imgEl.style.opacity = "0";
+  }
+
+  // Track request ID to ignore stale responses from earlier slides
+  const requestId = ++activeImageRequestId;
+  const targetUrl = currentItem.url;
+
+  // Safe preloading: do not assign to imgEl.src until bytes are ready
+  const preloader = new Image();
+  preloader.onload = () => {
+    if (requestId !== activeImageRequestId) return;
+    if (imgEl) {
+      imgEl.src = targetUrl;
+      imgEl.alt = title;
+      imgEl.style.opacity = "1";
+    }
+    if (spinnerEl) spinnerEl.style.display = "none";
+    if (errorEl) errorEl.style.display = "none";
+  };
+
+  preloader.onerror = () => {
+    if (requestId !== activeImageRequestId) return;
+    if (imgEl) {
+      imgEl.src = "";
+      imgEl.style.opacity = "0";
+    }
+    if (spinnerEl) spinnerEl.style.display = "none";
+    if (errorEl) {
+      errorEl.textContent = "Could not load image preview.";
+      errorEl.style.display = "block";
+    }
+  };
+
+  preloader.src = targetUrl;
+}
+
+export function nextGallerySlide() {
+  if (currentGallery.length <= 1) return;
+  showGallerySlide(currentGalleryIndex + 1);
+}
+
+export function prevGallerySlide() {
+  if (currentGallery.length <= 1) return;
+  showGallerySlide(currentGalleryIndex - 1);
 }
 
 export function closeLightbox() {
   if (!lightboxBackdrop) return;
   lightboxBackdrop.classList.remove("visible");
-  document.body.style.overflow = "";
+
+  // Invalidate any in-flight image loads
+  activeImageRequestId++;
+
+  const imgEl = lightboxBackdrop.querySelector("#lightboxImg");
+  const spinnerEl = lightboxBackdrop.querySelector("#lightboxSpinner");
+  const errorEl = lightboxBackdrop.querySelector("#lightboxError");
+
+  // Blank out src completely so previous image NEVER lingers
+  if (imgEl) {
+    imgEl.src = "";
+    imgEl.style.opacity = "0";
+  }
+  if (spinnerEl) spinnerEl.style.display = "none";
+  if (errorEl) errorEl.style.display = "none";
+
+  currentGallery = [];
+  currentGalleryIndex = 0;
+  currentGalleryArtistName = "";
+
+  // Preserve body scroll lock if underlying artist modal is still visible
+  if (modalBackdrop && modalBackdrop.classList.contains("visible")) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "";
+  }
 }
 
 function escapeHtml(str) {
