@@ -8,12 +8,39 @@
     "isDefault": true,
     "map": {
       "type": "numbered",
-      "totalTables": 40,
+      "totalTables": 60,
       "tablesPerRow": 5,
       "sections": [
-        { "name": "Front Hall (Tables 1-15)", "range": [1, 15], "color": "#ff544a44", "borderColor": "#ff544a", "label": "Front" },
-        { "name": "Central Hall (Tables 16-30)", "range": [16, 30], "color": "#76edff44", "borderColor": "#76edff", "label": "Central" },
-        { "name": "Back Plaza (Tables 31-40)", "range": [31, 40], "color": "#ffca4a44", "borderColor": "#ffca4a", "label": "Back" }
+        {
+          "name": "Front Hall (Tables 1-20)",
+          "range": [
+            1,
+            20
+          ],
+          "color": "#ff544a44",
+          "borderColor": "#ff544a",
+          "label": "Front"
+        },
+        {
+          "name": "Central Hall (Tables 21-40)",
+          "range": [
+            21,
+            40
+          ],
+          "color": "#76edff44",
+          "borderColor": "#76edff",
+          "label": "Central"
+        },
+        {
+          "name": "Back Plaza (Tables 41-60)",
+          "range": [
+            41,
+            60
+          ],
+          "color": "#ffca4a44",
+          "borderColor": "#ffca4a",
+          "label": "Back"
+        }
       ]
     }
   }

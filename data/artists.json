@@ -4,7 +4,11 @@
     "conventionId": "trackside-2026",
     "booth": "Table 5",
     "name": "Forks 🔱",
-    "aliases": ["angryforks", "artistforks", "Forks"],
+    "aliases": [
+      "angryforks",
+      "artistforks",
+      "Forks"
+    ],
     "summary": "Digital illustrator creating cute chibi acrylic charms, meme die-cut stickers, and fan merch! Exhibiting at Cosplay Trackside.",
     "verified": false,
     "isNew": false,
@@ -63,5 +67,989 @@
     ],
     "profileImage": "./assets/avatars/angryforks.jpg",
     "notes": "Pricing: Charms $15 (3 for $40, 5 for $60). Stickers $5 (5 for $20). Stamp rally with Table #6!"
+  },
+  {
+    "id": "mikou-art",
+    "conventionId": "trackside-2026",
+    "booth": "Table 11",
+    "name": "Mikou_art",
+    "aliases": [
+      "mikou",
+      "mikou_cosplay"
+    ],
+    "summary": "Illustrator creating cute cat art, posters, and Uma Musume photobooks for Cosplay Trackside. Exhibiting both days at Table 11!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/mikou_art",
+      "https://linktr.ee/mikouart"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/mikou_art/status/2112982874169487437"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Prints",
+      "Art Books & Zines",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/mikou-art/catalog_1.jpg",
+        "caption": "Uma Musume Pretty Derby Catalog & Photobook Showcase"
+      }
+    ],
+    "profileImage": "./assets/avatars/mikou-art.jpg",
+    "notes": "Bringing posters and photobook! At Table 11 both days."
+  },
+  {
+    "id": "pillow",
+    "conventionId": "trackside-2026",
+    "booth": "Table 54",
+    "name": "Pillow",
+    "aliases": [
+      "PillowMakura",
+      "PillowIllust"
+    ],
+    "summary": "Illustrator tabling at Cosplay Trackside Table #54 Oct 24-25. Original shikishis, Uma Musume art, and prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/PillowMakura",
+      "http://pillowillust.carrd.co",
+      "http://www.pixiv.net/en/users/17091483",
+      "http://vgen.co/PillowIllust"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/pillowmakura/status/2112685368692855290"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Standees",
+      "Commissions"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/pillow/catalog_1.jpg",
+        "caption": "Cosplay Trackside Table #54 Catalog & Shikishi Board Previews"
+      }
+    ],
+    "profileImage": "./assets/avatars/pillow.jpg",
+    "notes": "Will have custom hand-drawn shikishis and non-Uma goods. Japanese/English OK!"
+  },
+  {
+    "id": "venatto",
+    "conventionId": "trackside-2026",
+    "booth": "Table 15",
+    "name": "ヴェント🍱 (Vento)",
+    "aliases": [
+      "Venatto",
+      "VentoBento"
+    ],
+    "summary": "Illustrator & manga artist at table 15 both days! Uma Musume goods, prints, Arknights, and shikishi sketches.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/Venatto",
+      "https://potofu.me/ventobento"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/venatto/status/2112627112029102278"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Arknights",
+      "Girls' Frontline",
+      "Touhou Project"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Arknights",
+      "Girls' Frontline",
+      "Touhou Project"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Standees",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/venatto/catalog_1.jpg",
+        "caption": "Uma Musume Character Prints & Charms"
+      },
+      {
+        "url": "./assets/catalogs/venatto/catalog_2.png",
+        "caption": "Shikishi & Art Showcase Page 2"
+      },
+      {
+        "url": "./assets/catalogs/venatto/catalog_3.png",
+        "caption": "Stickers & Mini Prints"
+      }
+    ],
+    "profileImage": "./assets/avatars/venatto.jpg",
+    "notes": "Tabling both days at table 15. Hand-drawn shikishis available if time permits!"
+  },
+  {
+    "id": "napopk",
+    "conventionId": "trackside-2026",
+    "booth": "Table 4",
+    "name": "jinnsae 🐙",
+    "aliases": [
+      "napopk",
+      "pechehouse"
+    ],
+    "summary": "Umamusume cosplay trackside catalog! Acrylic charms, badges, and prints at table #4 both days.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/napopk",
+      "https://vgen.co/napopk",
+      "https://instagram.com/pechehouse"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/napopk/status/2112346875424854098"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Pins & Badges",
+      "Prints",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/napopk/catalog_1.jpg",
+        "caption": "Uma Musume Double-Sided Acrylic Charms"
+      },
+      {
+        "url": "./assets/catalogs/napopk/catalog_2.jpg",
+        "caption": "Button Badges & Pin Collection"
+      },
+      {
+        "url": "./assets/catalogs/napopk/catalog_3.jpg",
+        "caption": "Foil & Glossy Art Prints"
+      },
+      {
+        "url": "./assets/catalogs/napopk/catalog_4.jpg",
+        "caption": "Die-Cut Vinyl Stickers"
+      }
+    ],
+    "profileImage": "./assets/avatars/napopk.jpg",
+    "notes": "Table #4 both days. Featuring a wide selection of Uma Musume merch!"
+  },
+  {
+    "id": "tohoho-events",
+    "conventionId": "trackside-2026",
+    "booth": "Table 30",
+    "name": "tohoho_events",
+    "aliases": [
+      "tohoho"
+    ],
+    "summary": "A group of artists curating fan events and merch for our beloved oshis. Table 30 on Sunday-only! Every purchase gets a free Anitan sticker until supplies end.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/tohoho_events",
+      "https://tohohoevents.carrd.co/#artists"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/tohoho_events/status/2112339609665384901"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Pins & Badges",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/tohoho-events/catalog_1.jpg",
+        "caption": "Cosplay Trackside Sunday Catalogue Page 1"
+      },
+      {
+        "url": "./assets/catalogs/tohoho-events/catalog_2.jpg",
+        "caption": "Acrylic Charms & Keychains Page 2"
+      },
+      {
+        "url": "./assets/catalogs/tohoho-events/catalog_3.jpg",
+        "caption": "Free Anitan Sticker & Exclusive Goods"
+      }
+    ],
+    "profileImage": "./assets/avatars/tohoho-events.jpg",
+    "notes": "Sunday-only at Table 30! Every purchase receives a free Anitan sticker while supplies last."
+  },
+  {
+    "id": "badsprite",
+    "conventionId": "trackside-2026",
+    "booth": "Table 55",
+    "name": "BadSprite / SnakeberryArt",
+    "aliases": [
+      "BadSprite",
+      "SnakeberryArt"
+    ],
+    "summary": "Friends tabling together under SnakeberryArt at table #55 both Saturday and Sunday! Acrylic charms, stickers, and art prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/BadSprite",
+      "https://badsprite.itch.io/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/badsprite/status/2112244735658414233"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/badsprite/catalog_1.jpg",
+        "caption": "SnakeberryArt / BadSprite Catalog - Page 1"
+      },
+      {
+        "url": "./assets/catalogs/badsprite/catalog_2.jpg",
+        "caption": "Acrylic Charms & Stickers - Page 2"
+      }
+    ],
+    "profileImage": "./assets/avatars/badsprite.jpg",
+    "notes": "Tabling at Table #55 under the circle name SnakeberryArt both days!"
+  },
+  {
+    "id": "boukensha-c",
+    "conventionId": "trackside-2026",
+    "booth": "Table 18",
+    "name": "冒険者C (Boukensha C)",
+    "aliases": [
+      "boukensha_c",
+      "Boukensha C"
+    ],
+    "summary": "Game fan artist tabling at table #18 for Cosplay Trackside Oct 24-25. Uma Musume art books, doujinshi, acrylic goods, and prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/boukensha_c",
+      "https://www.pixiv.net/users/29874909",
+      "https://twpf.jp/boukensha_c"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/boukensha_c/status/2111932924958548439"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Prints",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/boukensha-c/catalog_1.jpg",
+        "caption": "Uma Musume Doujinshi & Artbook Catalog"
+      },
+      {
+        "url": "./assets/catalogs/boukensha-c/catalog_2.jpg",
+        "caption": "Character Charms & Art Goods"
+      }
+    ],
+    "profileImage": "./assets/avatars/boukensha-c.jpg",
+    "notes": "Table #18 both days! Japanese and English inquiries welcome."
+  },
+  {
+    "id": "zhajiang",
+    "conventionId": "trackside-2026",
+    "booth": "Table 29 (Sat)",
+    "name": "炸酱 (Zhajiang)",
+    "aliases": [
+      "zhajiang_",
+      "Zhajiang"
+    ],
+    "summary": "Tabling at table #29 Saturday only. Uma Musume die-cut stickers, acrylic standees, and charms.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/zhajiang_",
+      "https://zhajiang.carrd.co/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/zhajiang_/status/2111886026067112264"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Standees",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/zhajiang/catalog_1.jpg",
+        "caption": "Cosplay Trackside Saturday Table #29 Catalog"
+      }
+    ],
+    "profileImage": "./assets/avatars/zhajiang.jpg",
+    "notes": "Saturday ONLY at Table #29! Sharing table with bonebitten (who tables Sunday)."
+  },
+  {
+    "id": "lucha-dosukoi",
+    "conventionId": "trackside-2026",
+    "booth": "Table 43",
+    "name": "Lucha Dosukoi",
+    "aliases": [
+      "Lucha_Dosukoi",
+      "Lucha Dosukoi SSSR"
+    ],
+    "summary": "Tabling at table 43 on October 24 and 25 at Cosplay Trackside. Uma Musume streetwear apparel, graphic tees, charms, and stickers.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/Lucha_Dosukoi",
+      "https://linktr.ee/lucha.dosukoi"
+    ],
+    "storeLinks": [
+      "https://luchadosukoisssr.bigcartel.com"
+    ],
+    "catalogLinks": [
+      "https://x.com/lucha_dosukoi/status/2111716541150728250"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Apparel & Shirts",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/lucha-dosukoi/catalog_1.jpg",
+        "caption": "Cosplay Trackside Table 43 Full Merchandise Catalog"
+      }
+    ],
+    "profileImage": "./assets/avatars/lucha-dosukoi.jpg",
+    "notes": "At Table 43 both Saturday and Sunday! Stop by and hang out."
+  },
+  {
+    "id": "mijudraws",
+    "conventionId": "trackside-2026",
+    "booth": "Table 20",
+    "name": "Miju 🌠",
+    "aliases": [
+      "mijudraws",
+      "Miju"
+    ],
+    "summary": "At table #20 for Cosplay Trackside at Santa Anita Park on Oct 24-25. Uma Musume holographic charms, stickers, and mini prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/mijudraws",
+      "https://miju.moe"
+    ],
+    "storeLinks": [
+      "https://store.miju.moe"
+    ],
+    "catalogLinks": [
+      "https://x.com/mijudraws/status/2111678168633684275"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/mijudraws/catalog_1.jpg",
+        "caption": "Uma Musume Holographic Acrylic Charms & Stickers Menu"
+      }
+    ],
+    "profileImage": "./assets/avatars/mijudraws.jpg",
+    "notes": "Table #20 both days at Santa Anita Park! Sharing table space with VinoBurrito (#19)."
+  },
+  {
+    "id": "just-peemy",
+    "conventionId": "trackside-2026",
+    "booth": "Table 24",
+    "name": "peemi",
+    "aliases": [
+      "just_peemy",
+      "peemydayo"
+    ],
+    "summary": "Very excited to be back in Santa Anita at table #24! Acrylic charms, foil prints, stickers, and stamp rally participant.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/just_peemy",
+      "http://peemydayo.carrd.co"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/just_peemy/status/2111600456615051534"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Prints",
+      "Stickers",
+      "Pins & Badges"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/just-peemy/catalog_1.jpg",
+        "caption": "Catalogue Page 1 - Character Charms"
+      },
+      {
+        "url": "./assets/catalogs/just-peemy/catalog_2.jpg",
+        "caption": "Catalogue Page 2 - Foil Prints & Art"
+      },
+      {
+        "url": "./assets/catalogs/just-peemy/catalog_3.jpg",
+        "caption": "Catalogue Page 3 - Badges & Stamp Rally Info"
+      }
+    ],
+    "profileImage": "./assets/avatars/just-peemy.jpg",
+    "notes": "Table #24 both days. Participating in the event stamp rallies!"
+  },
+  {
+    "id": "bonebitten",
+    "conventionId": "trackside-2026",
+    "booth": "Table 29 (Sun)",
+    "name": "c (bonebitten)",
+    "aliases": [
+      "bonebitten"
+    ],
+    "summary": "Cosplay Trackside catalog for Sunday Oct 25th at table #29. First time selling art: Uma Musume charms, meme stickers, and prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/bonebitten",
+      "https://bonebitten.straw.page"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/bonebitten/status/2110799617365361107"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/bonebitten/catalog_1.jpg",
+        "caption": "Sunday Oct 25th Table #29 Catalog - Page 1"
+      },
+      {
+        "url": "./assets/catalogs/bonebitten/catalog_2.jpg",
+        "caption": "Acrylic Charms & Keychains - Page 2"
+      },
+      {
+        "url": "./assets/catalogs/bonebitten/catalog_3.jpg",
+        "caption": "Sticker Packs & Prints - Page 3"
+      }
+    ],
+    "profileImage": "./assets/avatars/bonebitten.jpg",
+    "notes": "Sunday ONLY at Table #29! First-time exhibitor!"
+  },
+  {
+    "id": "mintybytes",
+    "conventionId": "trackside-2026",
+    "booth": "Table 31",
+    "name": "yayi (mintybytes)",
+    "aliases": [
+      "mintybytes",
+      "mintybytes_art"
+    ],
+    "summary": "At table 31 for Sunday only at Cosplay Trackside! Uma Musume acrylic standees, charms, enamel pins, and stickers.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/mintybytes",
+      "https://linktr.ee/mintybytes"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/mintybytes/status/2110427717334356171"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Standees",
+      "Charms",
+      "Stickers",
+      "Pins & Badges"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/mintybytes/catalog_1.jpg",
+        "caption": "Sunday-Only Table 31 Catalog - Page 1"
+      },
+      {
+        "url": "./assets/catalogs/mintybytes/catalog_2.jpg",
+        "caption": "Acrylic Standees & Keyrings - Page 2"
+      },
+      {
+        "url": "./assets/catalogs/mintybytes/catalog_3.jpg",
+        "caption": "Stickers & Pin Badges - Page 3"
+      }
+    ],
+    "profileImage": "./assets/avatars/mintybytes.jpg",
+    "notes": "Table 31 for SUNDAY ONLY! English & Spanish OK."
+  },
+  {
+    "id": "gachaloha",
+    "conventionId": "trackside-2026",
+    "booth": "Vendor Booth",
+    "name": "Gachaloha",
+    "aliases": [
+      "GachalohaSHIRTS",
+      "Gachaloha"
+    ],
+    "summary": "Tropical apparel inspired by Uma Musume. Hawaiian shirts, jerseys, toploaders, hats, and pins. Official vendor both days at Cosplay Trackside.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/GachalohaSHIRTS",
+      "https://instagram.com/gachaloha"
+    ],
+    "storeLinks": [
+      "http://gachaloha.com"
+    ],
+    "catalogLinks": [
+      "https://x.com/gachalohashirts/status/2108623226246967528"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Apparel & Shirts",
+      "Pins & Badges",
+      "Stickers",
+      "Bags & Totes"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/gachaloha/catalog_1.jpg",
+        "caption": "Gachaloha Vendor Booth Banner - 4 Brand New Uma Shirts & Accessories"
+      }
+    ],
+    "profileImage": "./assets/avatars/gachaloha.jpg",
+    "notes": "Official vendor both days! Showcasing 4 brand-new designs plus stock of all previous Uma shirts."
+  },
+  {
+    "id": "suaviterra",
+    "conventionId": "trackside-2026",
+    "booth": "Table 17",
+    "name": "LAYER (suaviterra)",
+    "aliases": [
+      "suaviterra",
+      "LAYER"
+    ],
+    "summary": "Attending both Sat and Sun at table #17. Uma Musume holographic charms, prints, and stickers.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/suaviterra",
+      "http://patreon.com/suaviterra"
+    ],
+    "storeLinks": [
+      "https://www.etsy.com/shop/suaviterra"
+    ],
+    "catalogLinks": [
+      "https://x.com/suaviterra/status/2107704520482644326"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Prints",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/suaviterra/catalog_1.jpg",
+        "caption": "Cosplay Trackside Table 17 Catalogue - Page 1"
+      },
+      {
+        "url": "./assets/catalogs/suaviterra/catalog_2.jpg",
+        "caption": "Charms, Prints, and Stickers - Page 2"
+      }
+    ],
+    "profileImage": "./assets/avatars/suaviterra.jpg",
+    "notes": "Attending both Saturday and Sunday at Table #17!"
+  },
+  {
+    "id": "houyahafu",
+    "conventionId": "trackside-2026",
+    "booth": "Table 16",
+    "name": "Houya / ほうや",
+    "aliases": [
+      "HouyaHafu",
+      "Houya",
+      "h0uya_583"
+    ],
+    "summary": "Santa Anita Cosplay Trackside Menu at Table 16. Showagumi characters, art books, shikishi boards, acrylic charms, and postcards.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/HouyaHafu",
+      "https://linktr.ee/houyahafu",
+      "http://patreon.com/houyahafu"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/houyahafu/status/2107632763369386285"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Charms",
+      "Prints",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/houyahafu/catalog_1.jpg",
+        "caption": "Cosplay Trackside Table 16 Catalogue Cover"
+      },
+      {
+        "url": "./assets/catalogs/houyahafu/catalog_2.jpg",
+        "caption": "Artbooks & Illustration Collections"
+      },
+      {
+        "url": "./assets/catalogs/houyahafu/catalog_3.jpg",
+        "caption": "Acrylic Charms & Postcards Collection"
+      },
+      {
+        "url": "./assets/catalogs/houyahafu/catalog_4.jpg",
+        "caption": "Showagumi Special Shikishi Boards"
+      }
+    ],
+    "profileImage": "./assets/avatars/houyahafu.jpg",
+    "notes": "Table 16 both days! First time tabling in the US! No pre-orders, arrive early."
+  },
+  {
+    "id": "cdrosenn",
+    "conventionId": "trackside-2026",
+    "booth": "Table 22",
+    "name": "Corey (CDRosenn)",
+    "aliases": [
+      "CDRosenn",
+      "Corey Rosenn"
+    ],
+    "summary": "At table #22 for Cosplay Trackside on Saturday and Sunday. Fashion magazine style anime & Uma Musume covers and metallic foil prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/CDRosenn",
+      "https://rosenn.carrd.co/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/CDRosenn/status/2113050139078398383"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Anime",
+      "VTubers"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Anime",
+      "VTubers"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Art Books & Zines"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/cdrosenn/catalog_1.jpg",
+        "caption": "Fashion Magazine Style Uma Prints - Page 1"
+      },
+      {
+        "url": "./assets/catalogs/cdrosenn/catalog_2.jpg",
+        "caption": "Art Prints & Charms Menu - Page 2"
+      }
+    ],
+    "profileImage": "./assets/avatars/cdrosenn.jpg",
+    "notes": "At Table #22 both Saturday and Sunday! Stop by to check out the prints."
+  },
+  {
+    "id": "c-angel",
+    "conventionId": "trackside-2026",
+    "booth": "Table 42",
+    "name": "C-ANGEL (Valerie)",
+    "aliases": [
+      "c_angel_art",
+      "CAngelShop",
+      "C-ANGEL"
+    ],
+    "summary": "Vending at Cosplay Trackside this Saturday! Ton of new Uma Musume charms, keychains, and die-cut stickers.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/c_angel_art"
+    ],
+    "storeLinks": [
+      "https://www.etsy.com/shop/CAngelShop"
+    ],
+    "catalogLinks": [
+      "https://www.instagram.com/p/Dexz9I-mg6B/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Keychains"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/c-angel/catalog_1.jpg",
+        "caption": "Cosplay Trackside Saturday Uma Charms & Stickers Menu"
+      }
+    ],
+    "profileImage": "./assets/icons/favicon.svg",
+    "notes": "Vending this Saturday! Packed with brand-new Uma Musume charms."
+  },
+  {
+    "id": "vinoburrito",
+    "conventionId": "trackside-2026",
+    "booth": "Table 19",
+    "name": "VinoBurrito",
+    "aliases": [
+      "vinoburrito"
+    ],
+    "summary": "At Table 19 sharing a space with @mijudraws at Cosplay Trackside! Uma Musume charms, badges, and stickers.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/vinoburrito"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://www.instagram.com/p/DeuPXeeGyIE/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Pins & Badges"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/vinoburrito/catalog_1.jpg",
+        "caption": "Cosplay Trackside Table 19 Catalog - Uma Musume Goodies"
+      }
+    ],
+    "profileImage": "./assets/icons/favicon.svg",
+    "notes": "Find me at Table 19, sharing space with @mijudraws (#20)!"
+  },
+  {
+    "id": "iyeun",
+    "conventionId": "trackside-2026",
+    "booth": "Table 25",
+    "name": "iyeun",
+    "aliases": [
+      "iy.eun",
+      "iyeun"
+    ],
+    "summary": "Cosplay Trackside catalog at Table #25 Sunday. Debut of 'Change of Pace' Artbook, metallic luster prints, satin prints, and freebie small prints.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/iy.eun"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://www.instagram.com/p/Deug3zwlnSB/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/iyeun/catalog_1.jpg",
+        "caption": "Exclusive Debut: 'Change of Pace' Artbook & Print Collection"
+      }
+    ],
+    "profileImage": "./assets/icons/favicon.svg",
+    "notes": "Table #25 Sunday! Free satin print for anyone, unlimited free small/B-grade prints for customers."
+  },
+  {
+    "id": "posebean",
+    "conventionId": "trackside-2026",
+    "booth": "Table 12",
+    "name": "posebean",
+    "aliases": [
+      "posebean",
+      "umabean"
+    ],
+    "summary": "At Cosplay Trackside for an umatastic time! All bugsumes, hungry umas charms, stickers, and porb adoptions.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/posebean"
+    ],
+    "storeLinks": [
+      "https://posebean.bigcartel.com/"
+    ],
+    "catalogLinks": [
+      "https://www.instagram.com/p/Dem0Q1jD7TJ/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Original"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Plushies"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/posebean/catalog_1.jpg",
+        "caption": "Porb Adoptions, Bugsumes, and Hungry Umas Charms Menu"
+      }
+    ],
+    "profileImage": "./assets/icons/favicon.svg",
+    "notes": "Freebie trade for people who tell me their favorite Uma!"
   }
 ]
