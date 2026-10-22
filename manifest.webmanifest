@@ -1,0 +1,16 @@
+{
+  "name": "Trackside Catalog - Artist Alley Directory",
+  "short_name": "Trackside",
+  "description": "Artist Alley Directory & Catalog for Trackside and Anime Conventions",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d0e12",
+  "theme_color": "#EE3C35",
+  "icons": [
+    {
+      "src": "./assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

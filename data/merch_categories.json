@@ -1,0 +1,17 @@
+[
+  { "id": "prints", "name": "Prints", "category": "Art", "icon": "image" },
+  { "id": "charms", "name": "Charms", "category": "Accessories", "icon": "sparkles" },
+  { "id": "stickers", "name": "Stickers", "category": "Art", "icon": "tag" },
+  { "id": "standees", "name": "Standees", "category": "Art", "icon": "box" },
+  { "id": "pins", "name": "Pins & Badges", "category": "Accessories", "icon": "award" },
+  { "id": "plushies", "name": "Plushies", "category": "Physical", "icon": "heart" },
+  { "id": "apparel", "name": "Apparel & Shirts", "category": "Wearables", "icon": "shirt" },
+  { "id": "bags", "name": "Bags & Totes", "category": "Wearables", "icon": "shopping-bag" },
+  { "id": "art-books", "name": "Art Books & Zines", "category": "Publications", "icon": "book-open" },
+  { "id": "keychains", "name": "Keychains", "category": "Accessories", "icon": "key" },
+  { "id": "lanyards", "name": "Lanyards", "category": "Accessories", "icon": "link" },
+  { "id": "desk-mats", "name": "Desk Mats & Mousepads", "category": "Functional", "icon": "monitor" },
+  { "id": "blankets", "name": "Blankets & Pillows", "category": "Functional", "icon": "home" },
+  { "id": "stationery", "name": "Stationery & Notepads", "category": "Functional", "icon": "edit-3" },
+  { "id": "commissions", "name": "Commissions", "category": "Services", "icon": "paint" }
+]

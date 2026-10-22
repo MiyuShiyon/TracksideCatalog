@@ -1,0 +1,554 @@
+[
+  {
+    "id": "hammling",
+    "conventionId": "trackside-2026",
+    "booth": "A01",
+    "name": "Hammling Illustrations",
+    "aliases": [
+      "Hammling",
+      "Ham"
+    ],
+    "summary": "Freelance illustrator making detail-filled fantasy paintings, comics, and fan merchandise! Creator of original comic 'Monkey and Peach'. Prints, holographic stickers, and acrylic charms available.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "Open for sketch cards ($40) and inked portraits ($80) at table",
+    "socialLinks": [
+      "https://x.com/hammlingu",
+      "https://instagram.com/hammlingu",
+      "https://hammling.carrd.co"
+    ],
+    "storeLinks": [
+      "https://theconbini.bigcartel.com"
+    ],
+    "catalogLinks": [
+      "https://x.com/hammlingu/status/1789123456789"
+    ],
+    "series": [
+      "Dungeon Meshi",
+      "Elden Ring",
+      "Hades",
+      "Chainsaw Man",
+      "Final Fantasy XIV",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Dungeon Meshi",
+      "Elden Ring",
+      "Hades"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Stickers",
+      "Art Books & Zines",
+      "Commissions"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/hamm1/1200/800",
+        "caption": "Trackside 2026 Full Catalog - Page 1",
+        "width": 1200,
+        "height": 800
+      },
+      {
+        "url": "https://picsum.photos/seed/hamm2/1200/800",
+        "caption": "Dungeon Meshi Acrylic Standees & Charms",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Free mini-print with any $30+ purchase! Bring exact change for commission signups."
+  },
+  {
+    "id": "kamaniki",
+    "conventionId": "trackside-2026",
+    "booth": "A02",
+    "name": "Kamaniki",
+    "aliases": [
+      "kama"
+    ],
+    "summary": "Digital artist focusing on vibrant landscapes, nostalgic anime vibes, and huge double-sided acrylic standees.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "Online only (closed at con)",
+    "socialLinks": [
+      "https://x.com/Kamaniki",
+      "https://kamaniki.moe"
+    ],
+    "storeLinks": [
+      "https://kamaniki.shop/"
+    ],
+    "catalogLinks": [
+      "https://x.com/Kamaniki/status/181234567890"
+    ],
+    "series": [
+      "Sousou no Frieren",
+      "Bocchi the Rock!",
+      "Genshin Impact",
+      "Honkai: Star Rail",
+      "Lycoris Recoil",
+      "Persona 3"
+    ],
+    "seriesConfirmed": [
+      "Sousou no Frieren",
+      "Bocchi the Rock!",
+      "Genshin Impact"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Standees",
+      "Desk Mats & Mousepads",
+      "Bags & Totes"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/kama1/1200/900",
+        "caption": "New Frieren & Fern Panoramic Foil Prints",
+        "width": 1200,
+        "height": 900
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Accepting Card, Cash, and Apple Pay."
+  },
+  {
+    "id": "coughdrops",
+    "conventionId": "trackside-2026",
+    "booth": "A03",
+    "name": "K009 (Kata)",
+    "aliases": [
+      "coughdrops",
+      "K009"
+    ],
+    "summary": "Hi I'm Kata! Making silly, cute, and heartfelt things. Enamel pins, die-cut vinyl stickers, and cozy apparel.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "Not offering commissions",
+    "socialLinks": [
+      "https://x.com/coughdrops",
+      "https://instagram.com/coughdrops"
+    ],
+    "storeLinks": [
+      "https://www.etsy.com/shop/coughdrops009"
+    ],
+    "catalogLinks": [
+      "https://x.com/coughdrops/status/1808218016108405026"
+    ],
+    "series": [
+      "Pokemon",
+      "Legend of Zelda",
+      "Sonic the Hedgehog",
+      "Dungeon Meshi",
+      "Original"
+    ],
+    "seriesConfirmed": [
+      "Pokemon",
+      "Legend of Zelda"
+    ],
+    "merch": [
+      "Pins & Badges",
+      "Charms",
+      "Stickers",
+      "Keychains",
+      "Apparel & Shirts"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/kata1/1000/1000",
+        "caption": "Complete Enamel Pin Board Catalog",
+        "width": 1000,
+        "height": 1000
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Buy 4 pins get 1 free deal active all weekend!"
+  },
+  {
+    "id": "poxei",
+    "conventionId": "trackside-2026",
+    "booth": "B05",
+    "name": "Poxei",
+    "aliases": [
+      "poxeii"
+    ],
+    "summary": "Illustrator with a love for risograph printing, retro-anime aesthetics, and colorful original characters.",
+    "verified": true,
+    "isNew": true,
+    "commissions": "Flash commissions on Saturday 1-3 PM",
+    "socialLinks": [
+      "https://x.com/poxeii",
+      "https://instagram.com/poxei",
+      "https://poxei.carrd.co"
+    ],
+    "storeLinks": [
+      "https://poxei.bigcartel.com/"
+    ],
+    "catalogLinks": [
+      "https://x.com/poxeii/status/1939910835058745468"
+    ],
+    "series": [
+      "Dandadan",
+      "Jujutsu Kaisen",
+      "Chainsaw Man",
+      "Kimetsu no Yaiba",
+      "Vocaloid",
+      "Haikyuu!!"
+    ],
+    "seriesConfirmed": [
+      "Dandadan",
+      "Vocaloid"
+    ],
+    "merch": [
+      "Prints",
+      "Pins & Badges",
+      "Charms",
+      "Stationery & Notepads"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/poxei1/1200/850",
+        "caption": "Risograph Art Prints & Risograph Zine",
+        "width": 1200,
+        "height": 850
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=faces",
+    "notes": "First convention appearance! New Artist sticker available at the table."
+  },
+  {
+    "id": "atelierinapril",
+    "conventionId": "trackside-2026",
+    "booth": "B06",
+    "name": "Atelier in April",
+    "aliases": [
+      "April Lee"
+    ],
+    "summary": "Original and fan art for Genshin, Honkai: Star Rail, Monster Hunter, Danmei, VTubers, and retro gaming goodies.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "Closed",
+    "socialLinks": [
+      "https://x.com/atelierinapril",
+      "https://instagram.com/atelierinapril",
+      "https://www.atelierinapril.com"
+    ],
+    "storeLinks": [
+      "https://www.etsy.com/shop/AtelierinApril"
+    ],
+    "catalogLinks": [
+      "https://x.com/atelierinapril/status/1937713394037166471"
+    ],
+    "series": [
+      "Honkai: Star Rail",
+      "Genshin Impact",
+      "Monster Hunter",
+      "Splatoon",
+      "VTubers",
+      "Pokemon"
+    ],
+    "seriesConfirmed": [
+      "Honkai: Star Rail",
+      "Monster Hunter"
+    ],
+    "merch": [
+      "Blankets & Pillows",
+      "Charms",
+      "Standees",
+      "Plushies",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/april1/1200/800",
+        "caption": "Star Rail Holographic Standees and Woven Blankets",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Part of the Star Rail Stamp Rally! Collect your stamp here."
+  },
+  {
+    "id": "jimbobox",
+    "conventionId": "trackside-2026",
+    "booth": "C12",
+    "name": "JimboBox",
+    "aliases": [
+      "Jimbo"
+    ],
+    "summary": "High octane action art, mecha, Cyberpunk, and retro anime illustrations. Art books, acrylic blocks, and foil posters.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "Open for 5 custom commission slots per day",
+    "socialLinks": [
+      "https://x.com/jimbobox",
+      "https://instagram.com/jimbobox"
+    ],
+    "storeLinks": [
+      "https://jimbobox.com"
+    ],
+    "catalogLinks": [],
+    "series": [
+      "Cyberpunk 2077",
+      "Cowboy Bebop",
+      "Neon Genesis Evangelion",
+      "Metroid",
+      "Street Fighter",
+      "Gundam"
+    ],
+    "seriesConfirmed": [
+      "Cyberpunk 2077",
+      "Neon Genesis Evangelion"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Prints",
+      "Charms",
+      "Standees",
+      "Commissions"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/jimbo1/1200/800",
+        "caption": "Cyberpunk 2077 Foil Print Series",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Signing free with any art book purchase."
+  },
+  {
+    "id": "paerytopia",
+    "conventionId": "trackside-2026",
+    "booth": "C13",
+    "name": "Paerytopia",
+    "aliases": [
+      "Paery"
+    ],
+    "summary": "Artist & illustrator telling daily life stories through dreamy, retro-flavored 80s color palettes and city pop aesthetics.",
+    "verified": true,
+    "isNew": true,
+    "commissions": "Closed",
+    "socialLinks": [
+      "https://instagram.com/paerytopia",
+      "https://x.com/paerytopia",
+      "https://www.openlink.co/paerytopia"
+    ],
+    "storeLinks": [
+      "https://shop.line.me/@945hjqyb"
+    ],
+    "catalogLinks": [
+      "https://x.com/paerytopia/status/1888999111222"
+    ],
+    "series": [
+      "Sailor Moon",
+      "NANA",
+      "Original",
+      "Ki ni Natteru Hito ga Otoko Janakatta"
+    ],
+    "seriesConfirmed": [
+      "Sailor Moon",
+      "NANA",
+      "Original"
+    ],
+    "merch": [
+      "Bags & Totes",
+      "Charms",
+      "Prints",
+      "Standees",
+      "Keychains"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/paery1/1080/1350",
+        "caption": "Retro 80s City Pop Acrylic Standee Collection",
+        "width": 1080,
+        "height": 1350
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Traveling all the way from Bangkok! Come say hi!"
+  },
+  {
+    "id": "ceevee",
+    "conventionId": "trackside-2026",
+    "booth": "D20",
+    "name": "CeeVee Illustrations",
+    "aliases": [
+      "Chris",
+      "CeeVee"
+    ],
+    "summary": "Designer & illustrator from Honolulu, Hawaii. Tokusatsu, Kamen Rider, Super Sentai, and Mecha artworks on premium foil posters, enamel pins, and shoelace buckles.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "Taking digital commission reservations for post-con delivery",
+    "socialLinks": [
+      "https://x.com/ceevee_co",
+      "https://instagram.com/ceevee.co",
+      "https://tiktok.com/@ceevee.co"
+    ],
+    "storeLinks": [
+      "https://www.ceeveeillustrations.com/",
+      "https://www.etsy.com/shop/CeeVeeIllustrations"
+    ],
+    "catalogLinks": [
+      "https://x.com/ceevee_co/status/194455667788"
+    ],
+    "series": [
+      "Kamen Rider",
+      "Super Sentai / Power Rangers",
+      "Gundam",
+      "Chainsaw Man",
+      "Monster Hunter",
+      "Spider-Verse"
+    ],
+    "seriesConfirmed": [
+      "Kamen Rider",
+      "Gundam"
+    ],
+    "merch": [
+      "Pins & Badges",
+      "Prints",
+      "Charms",
+      "Apparel & Shirts",
+      "Accessories"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/ceevee1/1200/800",
+        "caption": "Kamen Rider & Tokusatsu Foil Poster Catalog",
+        "width": 1200,
+        "height": 800
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Buy 3 foil prints get 1 free! Custom metal shoelace buckles available."
+  },
+  {
+    "id": "grakanarts",
+    "conventionId": "ax-2026",
+    "booth": "B12",
+    "name": "grakanarts",
+    "aliases": [
+      "grakan"
+    ],
+    "summary": "Passionate anime illustrator making expansive panoramas, character tapestries, and glossy postcards.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "Closed",
+    "socialLinks": [
+      "https://x.com/grakanarts"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/grakanarts/status/1672342124074008577"
+    ],
+    "series": [
+      "Genshin Impact",
+      "Honkai: Star Rail",
+      "Zenless Zone Zero",
+      "Fate"
+    ],
+    "seriesConfirmed": [
+      "Genshin Impact",
+      "Zenless Zone Zero"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Desk Mats & Mousepads"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/grakan1/1200/850",
+        "caption": "Teyvat Archons Landscape Poster",
+        "width": 1200,
+        "height": 850
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200&fit=crop&crop=faces",
+    "notes": "AX 2026 Exclusive: Zenless Zone Zero holographic postcards!"
+  },
+  {
+    "id": "azhefra",
+    "conventionId": "anyc-2025",
+    "booth": "A29",
+    "name": "Azhefra",
+    "aliases": [
+      "late4early"
+    ],
+    "summary": "Dark fantasy and retro cyberpunk aesthetic artwork. Metallic ink prints and enamel pins.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "Open for 3 ink commissions daily",
+    "socialLinks": [
+      "https://instagram.com/late4early",
+      "https://x.com/azhefra"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Neon Genesis Evangelion",
+      "BioShock",
+      "Metal Gear",
+      "Sousou no Frieren",
+      "Vocaloid"
+    ],
+    "seriesConfirmed": [
+      "Neon Genesis Evangelion",
+      "Metal Gear"
+    ],
+    "merch": [
+      "Prints",
+      "Pins & Badges",
+      "Commissions"
+    ],
+    "images": [
+      {
+        "url": "https://picsum.photos/seed/azhefra1/1000/1200",
+        "caption": "Metallic ink print collection",
+        "width": 1000,
+        "height": 1200
+      }
+    ],
+    "profileImage": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=200&h=200&fit=crop&crop=faces",
+    "notes": "Visit booth early for morning sketch commissions!"
+  },
+  {
+    "id": "miyu-art",
+    "conventionId": "trackside-2026",
+    "booth": "B01",
+    "name": "Miyu Art",
+    "aliases": [],
+    "summary": "Illustrator focusing on stylish urban fantasy and action heroines.",
+    "verified": true,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/miyu_art"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/miyu_art/status/1999888877"
+    ],
+    "series": [
+      "Zenless Zone Zero",
+      "Genshin Impact"
+    ],
+    "seriesConfirmed": [
+      "Zenless Zone Zero",
+      "Genshin Impact"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Standees"
+    ],
+    "images": [],
+    "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=faces",
+    "notes": ""
+  }
+]

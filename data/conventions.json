@@ -1,0 +1,52 @@
+[
+  {
+    "id": "trackside-2026",
+    "name": "Trackside 2026",
+    "shortName": "Trackside '26",
+    "dates": "Summer 2026",
+    "location": "Convention Center - Exhibit Hall",
+    "isDefault": true,
+    "map": {
+      "aisles": ["A", "B", "C", "D", "E", "F", "G", "H"],
+      "tablesPerAisle": 30,
+      "sections": [
+        { "name": "Front Hall", "range": [1, 10], "color": "#ff544a22", "borderColor": "#ff544a88", "label": "Section 1" },
+        { "name": "Central Alley", "range": [11, 20], "color": "#76edff22", "borderColor": "#76edff88", "label": "Section 2" },
+        { "name": "Back Plaza", "range": [21, 30], "color": "#b74a4122", "borderColor": "#b74a4188", "label": "Section 3" }
+      ]
+    }
+  },
+  {
+    "id": "ax-2026",
+    "name": "Anime Expo 2026",
+    "shortName": "AX 2026",
+    "dates": "July 2-5, 2026",
+    "location": "Los Angeles Convention Center - Kentia Hall",
+    "isDefault": false,
+    "map": {
+      "aisles": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"],
+      "tablesPerAisle": 40,
+      "sections": [
+        { "name": "MAX", "range": [1, 14], "color": "#FDD6D933", "borderColor": "#FDD6D988", "label": "MAX" },
+        { "name": "KISEGI", "range": [15, 28], "color": "#C7DBE633", "borderColor": "#C7DBE688", "label": "KISEGI" },
+        { "name": "MAHOKO", "range": [29, 40], "color": "#D5C1DD33", "borderColor": "#D5C1DD88", "label": "MAHOKO" }
+      ]
+    }
+  },
+  {
+    "id": "anyc-2025",
+    "name": "Anime NYC 2025",
+    "shortName": "ANYC 2025",
+    "dates": "August 2025",
+    "location": "Javits Center, NYC",
+    "isDefault": false,
+    "map": {
+      "aisles": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+      "tablesPerAisle": 35,
+      "sections": [
+        { "name": "Main Alley", "range": [1, 20], "color": "#ff544a22", "borderColor": "#ff544a88", "label": "Aisle East" },
+        { "name": "West Rows", "range": [21, 35], "color": "#76edff22", "borderColor": "#76edff88", "label": "Aisle West" }
+      ]
+    }
+  }
+]

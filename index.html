@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#EE3C35">
+  <meta name="apple-mobile-web-app-title" content="Trackside Catalog">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content="Artist Alley Directory & Interactive Catalog - Browse artists, fandoms, merchandise, floor maps, and stamp rallies.">
+
+  <title>Trackside Catalog — Artist Alley Directory</title>
+
+  <!-- Favicon & PWA Manifest -->
+  <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/map.css">
+  <link rel="stylesheet" href="./css/modal.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Main App Header -->
+    <header class="app-header">
+      <!-- Left: Brand & Convention Selector -->
+      <div class="brand-wrapper">
+        <a href="./" class="brand-logo" title="Trackside Catalog">T</a>
+        <div class="brand-title-wrap">
+          <span class="brand-title">Trackside</span>
+          <div class="con-select-wrap">
+            <select class="con-select" id="conSelect" aria-label="Select Convention">
+              <!-- Populated by JS -->
+            </select>
+            <svg class="con-select-arrow" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desktop Navigation Tabs -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <button class="nav-tab-btn active" data-tab="artists">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.5 1.5 5 1.5 6.5 0 1.66 0 3-1.34 3-3.01 0-1.67-1.34-3.03-3-3.03z"/></svg>
+          Artists
+        </button>
+        <button class="nav-tab-btn" data-tab="browse">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          Browse
+        </button>
+        <button class="nav-tab-btn" data-tab="favorites">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+          Favorites
+        </button>
+        <button class="nav-tab-btn" data-tab="map">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+          Floor Map
+        </button>
+        <button class="nav-tab-btn" data-tab="rallies">
+          <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 22h14"/><path d="M19.27 13.73A2.5 2.5 0 0 0 17.5 13h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1.5a2.5 2.5 0 0 0-.73-1.77Z"/><path d="M14 13V8.5C14 7.12 12.88 6 11.5 6S9 7.12 9 8.5V13"/></svg>
+          Stamp Rallies
+        </button>
+      </nav>
+
+      <!-- Center: Universal Search Input -->
+      <div class="header-search-bar">
+        <div class="search-input-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" class="search-input" id="headerSearchInput" placeholder="Search artists, booths, fandoms, merch... (Press '/' to focus)" aria-label="Search directory">
+          <button class="search-clear-btn" id="headerSearchClear" aria-label="Clear search">&times;</button>
+        </div>
+      </div>
+
+      <!-- Right: Action Buttons -->
+      <div class="header-actions">
+        <button class="btn-icon" id="headerFilterBtn" title="Filter Directory" aria-label="Filters">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <span class="badge-count" id="filterBadge" style="display: none;">0</span>
+        </button>
+
+        <button class="btn-icon" id="headerThemeBtn" title="Toggle Light / Dark Mode" aria-label="Toggle theme">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content" id="mainContent">
+      <section class="view-container active" id="artistsView" aria-label="Artists View"></section>
+      <section class="view-container" id="browseView" aria-label="Browse View"></section>
+      <section class="view-container" id="favoritesView" aria-label="Favorites View"></section>
+      <section class="view-container" id="mapView" aria-label="Floor Map View"></section>
+      <section class="view-container" id="ralliesView" aria-label="Stamp Rallies View"></section>
+    </main>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="bottom-nav" aria-label="Mobile Navigation">
+      <button class="mobile-nav-item active" data-tab="artists" aria-label="Artists">
+        <span class="mobile-nav-indicator"></span>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9.06 11.9 8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.5 1.5 5 1.5 6.5 0 1.66 0 3-1.34 3-3.01 0-1.67-1.34-3.03-3-3.03z"/></svg>
+        <span>Artists</span>
+      </button>
+
+      <button class="mobile-nav-item" data-tab="browse" aria-label="Browse">
+        <span class="mobile-nav-indicator"></span>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+        <span>Browse</span>
+      </button>
+
+      <button class="mobile-nav-item" data-tab="favorites" aria-label="Favorites">
+        <span class="mobile-nav-indicator"></span>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+        <span>Favorites</span>
+      </button>
+
+      <button class="mobile-nav-item" data-tab="map" aria-label="Map">
+        <span class="mobile-nav-indicator"></span>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+        <span>Map</span>
+      </button>
+
+      <button class="mobile-nav-item" data-tab="rallies" aria-label="Stamp Rallies">
+        <span class="mobile-nav-indicator"></span>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 22h14"/><path d="M19.27 13.73A2.5 2.5 0 0 0 17.5 13h-11A2.5 2.5 0 0 0 4 15.5V17a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-1.5a2.5 2.5 0 0 0-.73-1.77Z"/><path d="M14 13V8.5C14 7.12 12.88 6 11.5 6S9 7.12 9 8.5V13"/></svg>
+        <span>Rallies</span>
+      </button>
+    </nav>
+
+    <!-- Artist Details Modal Backdrop -->
+    <div class="modal-backdrop" id="artistModalBackdrop" role="dialog" aria-modal="true">
+      <div class="modal-dialog">
+        <!-- Rendered dynamically by modal.js -->
+      </div>
+    </div>
+
+    <!-- Filter Drawer Backdrop -->
+    <div class="filter-drawer-backdrop" id="filterDrawerBackdrop" role="dialog" aria-modal="true">
+      <div class="filter-drawer">
+        <!-- Rendered dynamically by modal.js -->
+      </div>
+    </div>
+
+    <!-- Full Screen Lightbox Backdrop -->
+    <div class="lightbox-backdrop" id="lightboxBackdrop" role="dialog" aria-modal="true">
+      <div class="lightbox-header">
+        <span class="lightbox-caption"></span>
+        <button class="modal-close-btn" id="btnLightboxClose" style="color: #fff; background-color: rgba(255,255,255,0.2); border: none;">
+          &times;
+        </button>
+      </div>
+      <div class="lightbox-image-wrap">
+        <img class="lightbox-img" src="" alt="Catalog Preview">
+      </div>
+    </div>
+  </div>
+
+  <!-- Main ES Module Bootstrap -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

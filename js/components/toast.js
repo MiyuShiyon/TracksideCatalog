@@ -1,0 +1,25 @@
+// Toast notification system
+let toastContainer = null;
+
+export function showToast(message, duration = 2500) {
+  if (!toastContainer) {
+    toastContainer = document.createElement("div");
+    toastContainer.className = "toast-container";
+    document.body.appendChild(toastContainer);
+  }
+
+  const toast = document.createElement("div");
+  toast.className = "toast";
+  toast.textContent = message;
+
+  toastContainer.appendChild(toast);
+
+  setTimeout(() => {
+    toast.style.opacity = "0";
+    toast.style.transform = "translateY(10px) scale(0.9)";
+    toast.style.transition = "all 0.2s ease";
+    setTimeout(() => {
+      toast.remove();
+    }, 200);
+  }, duration);
+}
