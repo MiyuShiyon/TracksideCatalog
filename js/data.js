@@ -71,7 +71,20 @@ export const Store = {
 
     for (const a of conArtists) {
       if (a.id) this.artistsById.set(a.id, a);
-      if (a.booth) this.artistsByBooth.set(a.booth.toUpperCase(), a);
+
+      if (a.booth) {
+        const raw = a.booth.trim().toUpperCase();
+        this.artistsByBooth.set(raw, a);
+        // Also index normalized variants like "5" or "TABLE5"
+        const numOnly = raw.replace(/[^0-9]/g, "");
+        if (numOnly) {
+          this.artistsByBooth.set(numOnly, a);
+          this.artistsByBooth.set(`TABLE${numOnly}`, a);
+          this.artistsByBooth.set(`TABLE ${numOnly}`, a);
+          this.artistsByBooth.set(`TABLE #${numOnly}`, a);
+          this.artistsByBooth.set(`T${numOnly.padStart(2, "0")}`, a);
+        }
+      }
 
       // Aggregate series
       if (Array.isArray(a.series)) {
@@ -100,6 +113,8 @@ export const Store = {
   },
 
   getArtistByBooth(booth) {
-    return booth ? this.artistsByBooth.get(booth.toUpperCase()) || null : null;
+    if (!booth) return null;
+    const clean = booth.trim().toUpperCase();
+    return this.artistsByBooth.get(clean) || null;
   }
 };

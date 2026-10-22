@@ -1,68 +1,24 @@
 [
   {
-    "id": "rally-dungeon-meshi",
+    "id": "rally-table5-table6",
     "conventionId": "trackside-2026",
-    "title": "Delicious in Dungeon Stamp Rally",
-    "fandom": "Dungeon Meshi",
-    "hostBooth": "A01",
-    "booths": ["A01", "A03", "B05", "C12"],
-    "minTables": 3,
-    "totalCost": 20,
-    "prize": "Exclusive Foil Laios & Senshi Recipe Print + Die-cut Marcille Sticker",
-    "prizeLimit": 150,
-    "images": [
-      {
-        "url": "https://picsum.photos/seed/rally1/1200/800",
-        "caption": "Dungeon Meshi Rally Card & Prize Previews"
-      }
-    ],
-    "links": [
-      "https://x.com/hammlingu/status/1789123456789"
-    ],
-    "notes": "Pick up your stamp rally card at any participating table (A01, A03, B05, C12). Make any purchase at 3 or more tables to redeem your prize at A01!"
-  },
-  {
-    "id": "rally-star-rail",
-    "conventionId": "trackside-2026",
-    "title": "Astral Express Journey Rally",
-    "fandom": "Honkai: Star Rail",
-    "hostBooth": "B06",
-    "booths": ["A02", "B06", "C13"],
+    "title": "Table 5 & 6 Sticker Stamp Rally",
+    "fandom": "Uma Musume Pretty Derby",
+    "hostBooth": "Table 5",
+    "booths": ["Table 5", "Table 6"],
     "minTables": 2,
-    "totalCost": 15,
-    "prize": "Pom-Pom Conductor Acrylic Keyring + Commemorative Ticket",
-    "prizeLimit": 100,
+    "totalCost": null,
+    "prize": "Two exclusive Halloween Uma Musume chibi stickers",
+    "prizeLimit": null,
     "images": [
       {
-        "url": "https://picsum.photos/seed/rally2/1200/800",
-        "caption": "Star Rail Rally Stamp Card"
+        "url": "./assets/catalogs/angryforks/catalog-page1.jpg",
+        "caption": "Stamp Rally details on Catalog Page 1"
       }
     ],
     "links": [
-      "https://x.com/atelierinapril/status/1937713394037166471"
+      "https://x.com/angryforks/status/2113061418358706442"
     ],
-    "notes": "Claim prizes at Atelier in April (Booth B06) while supplies last."
-  },
-  {
-    "id": "rally-tokusatsu",
-    "conventionId": "trackside-2026",
-    "title": "Henshin Heroes Toku Rally",
-    "fandom": "Kamen Rider & Tokusatsu",
-    "hostBooth": "D20",
-    "booths": ["C12", "D20"],
-    "minTables": 2,
-    "totalCost": 20,
-    "prize": "Holographic Toku Rider Metallic Patch",
-    "prizeLimit": 80,
-    "images": [
-      {
-        "url": "https://picsum.photos/seed/rally3/1200/800",
-        "caption": "Toku Rally Flyer and Prize Patch"
-      }
-    ],
-    "links": [
-      "https://x.com/ceevee_co/status/194455667788"
-    ],
-    "notes": "Claim your prize at Booth D20!"
+    "notes": "Make any purchase at Table #5 (angryforks) and Table #6 to earn two exclusive Halloween Uma Musume chibi stickers!"
   }
 ]

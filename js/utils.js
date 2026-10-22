@@ -94,28 +94,30 @@ export const Theme = {
 };
 
 // --- Booth Natural Sorting ---
-// Compares booths like 'A01', 'A02', 'A10', 'B01', 'B20' correctly
+// Handles both "Table 5" / "5" and "A01" / "B12"
 export function compareBooths(a, b) {
   if (!a && !b) return 0;
   if (!a) return 1;
   if (!b) return -1;
 
-  const matchA = a.match(/^([A-Za-z]+)(\d+)?/);
-  const matchB = b.match(/^([A-Za-z]+)(\d+)?/);
+  const numA = parseInt(a.replace(/[^0-9]/g, ""), 10);
+  const numB = parseInt(b.replace(/[^0-9]/g, ""), 10);
 
-  if (!matchA || !matchB) return a.localeCompare(b);
+  const cleanA = a.replace(/^(table|#|\s)+/i, "").trim();
+  const cleanB = b.replace(/^(table|#|\s)+/i, "").trim();
 
-  const prefixA = matchA[1].toUpperCase();
-  const prefixB = matchB[1].toUpperCase();
+  const prefixA = cleanA.replace(/[0-9].*$/, "").toUpperCase();
+  const prefixB = cleanB.replace(/[0-9].*$/, "").toUpperCase();
 
   if (prefixA !== prefixB) {
     return prefixA.localeCompare(prefixB);
   }
 
-  const numA = parseInt(matchA[2] || "0", 10);
-  const numB = parseInt(matchB[2] || "0", 10);
+  if (!isNaN(numA) && !isNaN(numB)) {
+    return numA - numB;
+  }
 
-  return numA - numB;
+  return a.localeCompare(b);
 }
 
 // --- URL Params Helper ---
