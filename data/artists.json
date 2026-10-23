@@ -272,7 +272,7 @@
   {
     "id": "tohoho-events",
     "conventionId": "trackside-2026",
-    "booth": "Table 30",
+    "booth": "Table 30 (Sun)",
     "name": "tohoho_events",
     "aliases": [
       "tohoho"
@@ -1106,5 +1106,257 @@
     ],
     "profileImage": "./assets/avatars/yasoku-us.jpg",
     "notes": "Umamusume catalog featuring debuts and guest artwork by Holeecrab, Tomozo, and Tarotnight."
+  },
+  {
+    "id": "xed",
+    "conventionId": "trackside-2026",
+    "booth": "Table 45",
+    "name": "xed",
+    "aliases": [
+      "halveablock",
+      "elien"
+    ],
+    "summary": "Cinderella Gray doujinshi 'Endless Race', riso prints, and sticker sheets at Table 45 both days, also carrying Elien's Uma wares!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/halveablock",
+      "https://www.instagram.com/p/De0ElHSjwHP/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://www.instagram.com/p/De0ElHSjwHP/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Prints",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/xed/catalog_1.jpg",
+        "caption": "xed - Cinderella Gray Fanbook, Riso Prints & Sticker Sheets"
+      }
+    ],
+    "profileImage": "./assets/avatars/xed.jpg",
+    "notes": "Table #45 both days! Carrying Elien's wares as well. Freebie for Naka & Tamamo cosplayers."
+  },
+  {
+    "id": "martypcsr",
+    "conventionId": "trackside-2026",
+    "booth": "Table 7",
+    "name": "marty",
+    "aliases": [
+      "martypcsr"
+    ],
+    "summary": "Umamusume acrylic standees including the special Halloween Meisho Doto, charms, and art prints at Table 7!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/martypcsr"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/martypcsr/status/2113404210851332219"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Standees",
+      "Charms",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/martypcsr/catalog_1.jpg",
+        "caption": "marty - Halloween Meisho Doto Standee & Catalog Page 1"
+      },
+      {
+        "url": "./assets/catalogs/martypcsr/catalog_2.jpg",
+        "caption": "marty - Umamusume Standees Page 2"
+      },
+      {
+        "url": "./assets/catalogs/martypcsr/catalog_3.jpg",
+        "caption": "marty - Umamusume Acrylic Charms Page 3"
+      },
+      {
+        "url": "./assets/catalogs/martypcsr/catalog_4.jpg",
+        "caption": "marty - Catalog Page 4"
+      }
+    ],
+    "profileImage": "./assets/avatars/martypcsr.jpg",
+    "notes": "Table 7 with the Halloween Meisho Doto standee!"
+  },
+  {
+    "id": "yokudraws",
+    "conventionId": "trackside-2026",
+    "booth": "Table 41",
+    "name": "Yokura",
+    "aliases": [
+      "yokudraws"
+    ],
+    "summary": "Umamusume apparel, charms, and prints at Table 41 both days, featuring the brand new Nice Nature T-Shirt!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/yokudraws",
+      "http://yoku.moe"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/yokudraws/status/2113424502487195838"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Apparel & Shirts",
+      "Charms",
+      "Prints"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/yokudraws/catalog_1.jpg",
+        "caption": "Yokura - Catalog Overview & Nice Nature T-Shirt"
+      },
+      {
+        "url": "./assets/catalogs/yokudraws/catalog_2.jpg",
+        "caption": "Yokura - Nice Nature T-Shirt Showcase"
+      }
+    ],
+    "profileImage": "./assets/avatars/yokudraws.jpg",
+    "notes": "Table 41 both days! Nice Nature T-Shirt debut."
+  },
+  {
+    "id": "meltyrice",
+    "conventionId": "trackside-2026",
+    "booth": "Table 46",
+    "name": "meltyrice",
+    "aliases": [
+      "meltyrice"
+    ],
+    "summary": "Umamusume light sticks, metal badges, and sticker sheets at Table 46 both days!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/meltyrice"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/meltyrice/status/2113439912720760971"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Pins & Badges",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/meltyrice/catalog_1.jpg",
+        "caption": "meltyrice - Trackside Catalog Table 46"
+      }
+    ],
+    "profileImage": "./assets/avatars/meltyrice.jpg",
+    "notes": "Table #46 both days! Free sticker sheet + metal badge set with all purchases while supplies last."
+  },
+  {
+    "id": "p3achsalt",
+    "conventionId": "trackside-2026",
+    "booth": "Table 8",
+    "name": "Brai (p3achsalt)",
+    "aliases": [
+      "p3achsalt"
+    ],
+    "summary": "Umamusume honse catalog and original merchandise at Table 8 both days!",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/p3achsalt"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/p3achsalt/status/2113494674707198256"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Prints",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/p3achsalt/catalog_1.jpg",
+        "caption": "Brai - Honse Catalog for Cosplay Trackside"
+      }
+    ],
+    "profileImage": "./assets/avatars/p3achsalt.jpg",
+    "notes": "Table #8 both days on October 24-25th!"
+  },
+  {
+    "id": "tkimichi",
+    "conventionId": "trackside-2026",
+    "booth": "Table 30 (Sat)",
+    "name": "kim (tkimichi)",
+    "aliases": [
+      "tkimichi"
+    ],
+    "summary": "Huge variety of cute chibi Umamusume acrylic charms! Saturday-only at Table 30.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://instagram.com/tkimichi",
+      "https://www.instagram.com/p/De0LvE2DyN2/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://www.instagram.com/p/De0LvE2DyN2/"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/tkimichi/catalog_1.jpg",
+        "caption": "kim - Umamusume Chibi Acrylic Charms"
+      }
+    ],
+    "profileImage": "./assets/avatars/tkimichi.jpg",
+    "notes": "Saturday-only at Table 30!"
   }
 ]
