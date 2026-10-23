@@ -642,7 +642,7 @@
   {
     "id": "mintybytes",
     "conventionId": "trackside-2026",
-    "booth": "Table 31",
+    "booth": "Table 31 (Sun)",
     "name": "yayi (mintybytes)",
     "aliases": [
       "mintybytes",
@@ -1358,5 +1358,314 @@
     ],
     "profileImage": "./assets/avatars/tkimichi.jpg",
     "notes": "Saturday-only at Table 30!"
+  },
+  {
+    "id": "cookietanukiart",
+    "conventionId": "trackside-2026",
+    "booth": "Table 1",
+    "name": "♡ cloudie ♡ (cookietanukiart)",
+    "aliases": [
+      "cloudie",
+      "cookietanukiart"
+    ],
+    "summary": "Starting Table No. 1 for the Uma 7th Live Stamp Rally! Cosplay Trackside vendor.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/cookietanukiart/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Touhou Project",
+      "Kirby",
+      "Splatoon"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Starting Table No. 1 for the Uma 7th Live Stamp Rally! Pick up your stamp sheet here."
+  },
+  {
+    "id": "ivoryice",
+    "conventionId": "trackside-2026",
+    "booth": "Table 2",
+    "name": "Ivory Ice (ivoryice_)",
+    "aliases": [
+      "ivoryice",
+      "ivoryice_"
+    ],
+    "summary": "At Table 2 for Cosplay Trackside. Participating in the Uma 7th Live Stamp Rally.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/ivoryice_/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Table 2 at Cosplay Trackside. Participating in the Uma 7th Live Stamp Rally."
+  },
+  {
+    "id": "wabkuh",
+    "conventionId": "trackside-2026",
+    "booth": "Table 23",
+    "name": "wabkuh",
+    "aliases": [
+      "wabkuh"
+    ],
+    "summary": "At Table 23 for Cosplay Trackside. Participating in the Uma 7th Live Stamp Rally and organizing the Ani Chan Freebie Rally.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/wabkuh/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Pins & Badges",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Table 23 at Cosplay Trackside. Participating in the Uma 7th Live Stamp Rally and organizing the Ani Chan Freebie Rally."
+  },
+  {
+    "id": "syrwashere",
+    "conventionId": "trackside-2026",
+    "booth": "Table 31 (Sat)",
+    "name": "Syr Was Here (syrwashere)",
+    "aliases": [
+      "syrwashere",
+      "syr"
+    ],
+    "summary": "At Table 31 for Saturday only! Uma Musume stickers, build-your-own shaker charms, and oshikatsu goods. Participating in Posebean's Uma 7th Live Stamp Rally.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/syrwashere/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Table 31 for SATURDAY ONLY! Participating in Posebean's Uma 7th Live Stamp Rally and the Ani-tan Stamp Rally."
+  },
+  {
+    "id": "jaxcels",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "Jax Nguyen (jaxcels)",
+    "aliases": [
+      "jaxcels",
+      "Ghostly Goods"
+    ],
+    "summary": "Illustrator and designer behind Ghostly Goods. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/jaxcels/",
+      "https://www.jaxcels.com/"
+    ],
+    "storeLinks": [
+      "https://www.jaxcels.com/"
+    ],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Final Fantasy XIV"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Pins & Badges",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+  },
+  {
+    "id": "kurishay",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "chris (kurishay)",
+    "aliases": [
+      "kurishay",
+      "chris"
+    ],
+    "summary": "Digital artist and illustrator. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "DM for commissions",
+    "socialLinks": [
+      "https://www.instagram.com/kurishay/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+  },
+  {
+    "id": "lazydaytee",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "LazyDayIllustrations (lazydaytee)",
+    "aliases": [
+      "lazydaytee",
+      "LazyDayIllustrations"
+    ],
+    "summary": "Cute illustrations and enamel pins. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside with Uma Musume charms!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/lazydaytee/"
+    ],
+    "storeLinks": [
+      "https://lazydayillustrations.etsy.com"
+    ],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Pokemon"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Pins & Badges",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside with Uma Musume charms and pins."
+  },
+  {
+    "id": "jellisstuff",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "jelli / jel 💖 (jellisstuff)",
+    "aliases": [
+      "jellisstuff",
+      "jelli"
+    ],
+    "summary": "Merchandise creator and artist. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://www.instagram.com/jellisstuff/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Limbus Company",
+      "Touhou Project",
+      "Phase Connect"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Pins & Badges",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+  },
+  {
+    "id": "norcerro",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "Norcel (norcerro)",
+    "aliases": [
+      "norcerro",
+      "norc"
+    ],
+    "summary": "Artist and vendor. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "DM for commissions",
+    "socialLinks": [
+      "https://www.instagram.com/norcerro/"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Twisted Wonderland"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Prints",
+      "Charms",
+      "Stickers"
+    ],
+    "images": [],
+    "profileImage": "",
+    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
   }
 ]

@@ -20,5 +20,37 @@
       "https://x.com/angryforks/status/2113061418358706442"
     ],
     "notes": "Make any purchase at Table #5 (angryforks) and Table #6 to earn two exclusive Halloween Uma Musume chibi stickers!"
+  },
+  {
+    "id": "rally-uma-7th-happi",
+    "conventionId": "trackside-2026",
+    "title": "Uma 7th Live at the Track! JFD Stamp Rally",
+    "fandom": "Uma Musume Pretty Derby",
+    "hostBooth": "Table 12",
+    "booths": [
+      "Table 1",
+      "Table 2",
+      "Table 12",
+      "Table 18",
+      "Table 23",
+      "Table 31 (Sat)",
+      "Table 31 (Sun)",
+      "Table 36",
+      "Table 55"
+    ],
+    "minTables": null,
+    "totalCost": null,
+    "prize": "Limited Edition Special Happi Coat (Capped to 20 per day)",
+    "prizeLimit": 20,
+    "images": [
+      {
+        "url": "./assets/catalogs/posebean/stamp_rally.jpg",
+        "caption": "Uma 7th Live JFD Stamp Rally - Limited Happi Coat Prize"
+      }
+    ],
+    "links": [
+      "https://www.instagram.com/p/DencFKgGqrW/"
+    ],
+    "notes": "Uma 7th Live themed stamp rally at Cosplay Trackside celebrating Japan Family Day! Features all 17 performing umas plus special guest Anitan.\n\nHow to play:\n- Pick up a stamp sheet from the starting table No. 1 (@cookietanukiart)\n- Make a minimum $5 purchase per stamp at participating artist tables! There is an exception for Table 31 based on the day: visit @syrwashere on Saturday, or @mintybytes on Sunday.\n- Bring the completed sheet to Table No. 36 to claim your prize!\n\nPrizes are extremely limited and capped to 20 Happi Coats per day, so plan accordingly!\n\nParticipating Artists: @posebean (Table 12), @cookietanukiart (Table 1), @ivoryice_ (Table 2), @boukensha_c (Table 18), @wabkuh (Table 23), @syrwashere (Table 31 Sat), @mintybytes (Table 31 Sun), @snakeberryart (Table 55), @jaxcels, @kurishay, @lazydaytee, @jellisstuff, @norcerro."
   }
 ]

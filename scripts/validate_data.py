@@ -46,7 +46,7 @@ def check():
                 errors.append(f"Artist #{i} is missing name!")
             
             key = (cid, booth)
-            if key in seen_keys:
+            if not booth.upper().startswith("TABLE TBA") and key in seen_keys:
                 errors.append(f"Duplicate booth '{booth}' in convention '{cid}' for artist '{name}'")
             seen_keys.add(key)
         
