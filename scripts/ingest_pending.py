@@ -79,6 +79,11 @@ def process_file(file_path: Path):
         print(f"  Warning: could not delete {file_path}: {e}")
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    if hasattr(sys.stderr, "reconfigure"):
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
     if len(sys.argv) > 1:
         target = Path(sys.argv[1])
         if not target.exists():

@@ -1051,5 +1051,60 @@
     ],
     "profileImage": "./assets/icons/favicon.svg",
     "notes": "Freebie trade for people who tell me their favorite Uma!"
+  },
+  {
+    "id": "yasoku-us",
+    "conventionId": "trackside-2026",
+    "booth": "Table TBA",
+    "name": "Yasoku Publishing",
+    "aliases": [
+      "yasoku_us",
+      "holeecrab"
+    ],
+    "summary": "Media publishing bringing Umamusume artbooks, racing posters, apparel, and coffee cups to Cosplay Trackside, featuring artwork by Holeecrab, Tomozo, Tarotnight, and more.",
+    "verified": false,
+    "isNew": false,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/yasoku_us",
+      "https://yasoku.us",
+      "https://x.com/holeecrab"
+    ],
+    "storeLinks": [],
+    "catalogLinks": [
+      "https://x.com/yasoku_us/status/2113328966623002906"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Art Books & Zines",
+      "Prints",
+      "Apparel & Shirts",
+      "Stickers"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/yasoku-us/catalog_1.jpg",
+        "caption": "Nakomofu Peekers, Racing Jackets, Vee Diecuts"
+      },
+      {
+        "url": "./assets/catalogs/yasoku-us/catalog_2.jpg",
+        "caption": "Artbooks: Racing Colors by Tomozo & Uma+Racing by Holeecrab, Tarotnight"
+      },
+      {
+        "url": "./assets/catalogs/yasoku-us/catalog_3.jpg",
+        "caption": "Tachyon & Cafe Coffee Cups"
+      },
+      {
+        "url": "./assets/catalogs/yasoku-us/catalog_4.jpg",
+        "caption": "Racing Posters: Silence Suzuka, Taiki Shuttle, Symboli Rudolf, Gold Ship"
+      }
+    ],
+    "profileImage": "./assets/avatars/yasoku-us.jpg",
+    "notes": "Umamusume catalog featuring debuts and guest artwork by Holeecrab, Tomozo, and Tarotnight."
   }
 ]
