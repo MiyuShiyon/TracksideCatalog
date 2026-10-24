@@ -1464,20 +1464,25 @@
     "id": "syrwashere",
     "conventionId": "trackside-2026",
     "booth": "Table 31 (Sat)",
-    "name": "Syr Was Here (syrwashere)",
+    "name": "Syr (SyreniAbyssi)",
     "aliases": [
       "syrwashere",
+      "SyreniAbyssi",
       "syr"
     ],
-    "summary": "At Table 31 for Saturday only! Uma Musume stickers, build-your-own shaker charms, and oshikatsu goods. Participating in Posebean's Uma 7th Live Stamp Rally.",
+    "summary": "At Table 31 for Saturday only! Uma Musume stickers, build-your-own shaker charms, winner sash flight tags, and oshikatsu goods. Participating in Posebean's Uma 7th Live Stamp Rally.",
     "verified": false,
     "isNew": true,
     "commissions": "",
     "socialLinks": [
-      "https://www.instagram.com/syrwashere/"
+      "https://x.com/SyreniAbyssi",
+      "https://www.instagram.com/syrwashere/",
+      "http://linktr.ee/syrwashere"
     ],
     "storeLinks": [],
-    "catalogLinks": [],
+    "catalogLinks": [
+      "https://x.com/SyreniAbyssi/status/2113666111975915982"
+    ],
     "series": [
       "Uma Musume Pretty Derby"
     ],
@@ -1486,10 +1491,25 @@
     ],
     "merch": [
       "Charms",
-      "Stickers"
+      "Stickers",
+      "Pins & Badges",
+      "Apparel & Accessories"
     ],
-    "images": [],
-    "profileImage": "",
+    "images": [
+      {
+        "url": "./assets/catalogs/syrwashere/catalog_1.jpg",
+        "caption": "Cosplay Trackside Uma Roll Call Stickers"
+      },
+      {
+        "url": "./assets/catalogs/syrwashere/catalog_2.jpg",
+        "caption": "Build-An-Uma Workshop Shaker Charms"
+      },
+      {
+        "url": "./assets/catalogs/syrwashere/catalog_3.jpg",
+        "caption": "Horse Gate Shakers & Winner's Sash Flight Tags"
+      }
+    ],
+    "profileImage": "./assets/avatars/syrwashere.jpg",
     "notes": "Table 31 for SATURDAY ONLY! Participating in Posebean's Uma 7th Live Stamp Rally and the Ani-tan Stamp Rally."
   },
   {
@@ -1601,21 +1621,26 @@
   {
     "id": "jellisstuff",
     "conventionId": "trackside-2026",
-    "booth": "Table TBA",
+    "booth": "Table 14 (Sun)",
     "name": "jelli / jel 💖 (jellisstuff)",
     "aliases": [
       "jellisstuff",
-      "jelli"
+      "jelli",
+      "jel."
     ],
-    "summary": "Merchandise creator and artist. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside!",
+    "summary": "At Table 14 for Sunday only at Cosplay Trackside! 40+ Umamusume charms, stickers, and 2.5in buttons. Participating in the Uma 7th Live Stamp Rally!",
     "verified": false,
     "isNew": true,
     "commissions": "",
     "socialLinks": [
-      "https://www.instagram.com/jellisstuff/"
+      "https://x.com/jellisstuff",
+      "https://www.instagram.com/jellisstuff/",
+      "https://jellisstuff.carrd.co/"
     ],
     "storeLinks": [],
-    "catalogLinks": [],
+    "catalogLinks": [
+      "https://x.com/jellisstuff/status/2113788146538483986"
+    ],
     "series": [
       "Uma Musume Pretty Derby",
       "Limbus Company",
@@ -1627,12 +1652,21 @@
     ],
     "merch": [
       "Charms",
-      "Pins & Badges",
-      "Stickers"
+      "Stickers",
+      "Pins & Badges"
     ],
-    "images": [],
-    "profileImage": "",
-    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+    "images": [
+      {
+        "url": "./assets/catalogs/jellisstuff/catalog_1.jpg",
+        "caption": "Table 14 (Sunday) - Umamusume Charms, Stickers & Buttons"
+      },
+      {
+        "url": "./assets/catalogs/jellisstuff/catalog_2.jpg",
+        "caption": "Stamp Rally Participation - Uma 7th Live Stamp Rally"
+      }
+    ],
+    "profileImage": "./assets/avatars/jellisstuff.jpg",
+    "notes": "Table 14 for SUNDAY ONLY! (Attending Saturday). Participating in the Uma 7th Live Stamp Rally."
   },
   {
     "id": "norcerro",
@@ -1667,5 +1701,214 @@
     "images": [],
     "profileImage": "",
     "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+  },
+  {
+    "id": "lisuworks",
+    "conventionId": "trackside-2026",
+    "booth": "Table 48",
+    "name": "LiSU Works",
+    "aliases": [
+      "LisuWorks",
+      "LiSU"
+    ],
+    "summary": "At Table 48 all weekend for Cosplay Trackside! Water bottles, pub glasses, beer mugs, shot glasses, magnets, and stickers. Free Ani-tan magnet while supplies last!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/LisuWorks"
+    ],
+    "storeLinks": [
+      "https://lisuworks.etsy.com/"
+    ],
+    "catalogLinks": [
+      "https://x.com/LisuWorks/status/2113737301948031424"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Final Fantasy XIV",
+      "Monster Hunter",
+      "Touhou Project"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Final Fantasy XIV",
+      "Monster Hunter",
+      "Touhou Project"
+    ],
+    "merch": [
+      "Drinkware & Glassware",
+      "Magnets",
+      "Stickers",
+      "Charms",
+      "Home Goods"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/lisuworks/catalog_1.jpg",
+        "caption": "Table 48 - Water Bottles, Pub Glasses & Kitasan Black Beer Mug"
+      },
+      {
+        "url": "./assets/catalogs/lisuworks/catalog_2.jpg",
+        "caption": "Shot Glasses, Magnets, Stickers & Cortisol Meter"
+      },
+      {
+        "url": "./assets/catalogs/lisuworks/catalog_3.jpg",
+        "caption": "FFXIV Clock/Mug, Monster Hunter Mugs & Touhou Gourd Bottle"
+      }
+    ],
+    "profileImage": "./assets/avatars/lisuworks.jpg",
+    "notes": "Table 48 all weekend (Sat & Sun). Stop by for a free Ani-tan magnet (supplies limited per day)!"
+  },
+  {
+    "id": "magui",
+    "conventionId": "trackside-2026",
+    "booth": "Table 37",
+    "name": "Magui",
+    "aliases": [
+      "_magui3",
+      "magui",
+      "maguisan"
+    ],
+    "summary": "At Table 37 for Cosplay Trackside with Uma Musume 11x17in prints and 2.5in charms, plus limited Hololive and Blue Archive merch!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/_magui3",
+      "https://www.twitch.tv/maguisan"
+    ],
+    "storeLinks": [
+      "https://maguishop.art"
+    ],
+    "catalogLinks": [
+      "https://x.com/_magui3/status/2113727659817787845"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Hololive",
+      "Blue Archive"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby",
+      "Hololive",
+      "Blue Archive"
+    ],
+    "merch": [
+      "Prints",
+      "Charms"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/magui/catalog_1.jpg",
+        "caption": "Table 37 - 11x17in Prints & 2.5in Charms"
+      }
+    ],
+    "profileImage": "./assets/avatars/magui.jpg",
+    "notes": "Table 37 all weekend with Uma Musume, Hololive, and Blue Archive goods."
+  },
+  {
+    "id": "lemoncremes",
+    "conventionId": "trackside-2026",
+    "booth": "Table 50",
+    "name": "Lemon-Crème",
+    "aliases": [
+      "LemonCremeS",
+      "Lemon-Crème Studios"
+    ],
+    "summary": "At Table 50 all weekend for Cosplay Trackside! Acrylic charms, vinyl stickers, engraved metal flasks, wooden coasters, mousepads, and shikishis. Part of the FREE Anitan stamp rally!",
+    "verified": false,
+    "isNew": true,
+    "commissions": "Small Shikishi Commissions ($60) - drawn on site, limited slots",
+    "socialLinks": [
+      "https://x.com/LemonCremeS"
+    ],
+    "storeLinks": [
+      "https://lemoncre.me"
+    ],
+    "catalogLinks": [
+      "https://x.com/LemonCremeS/status/2113773061413761503"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Charms",
+      "Stickers",
+      "Prints",
+      "Drinkware & Glassware",
+      "Commissions"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/lemoncremes/catalog_1.jpg",
+        "caption": "Table 50 - Acrylic Charms, Vinyl Peeker Stickers & Vinyl Stickers"
+      },
+      {
+        "url": "./assets/catalogs/lemoncremes/catalog_2.jpg",
+        "caption": "3D Mouse Pad, Liquid Charm, Engraved Metal Flasks, Wooden Coasters & Mini Prints"
+      },
+      {
+        "url": "./assets/catalogs/lemoncremes/catalog_3.jpg",
+        "caption": "Hand Drawn Summer Shikishis & On-Site Shikishi Commissions ($60)"
+      }
+    ],
+    "profileImage": "./assets/avatars/lemoncremes.jpg",
+    "notes": "Table 50 all weekend. Free 7th Live print with proof of concert ticket, and part of the FREE Anitan stamp rally!"
+  },
+  {
+    "id": "conconshop",
+    "conventionId": "trackside-2026",
+    "booth": "Table 49",
+    "name": "concon",
+    "aliases": [
+      "conconshop__",
+      "concon",
+      "emucchi_"
+    ],
+    "summary": "At Table 49 for Cosplay Trackside October 24-25! Umazing Doro shirts, broke Gold Ship tote bags, 35x16 desk mats, credit card skins, acrylic keychains, peekers, and poster prints.",
+    "verified": false,
+    "isNew": true,
+    "commissions": "",
+    "socialLinks": [
+      "https://x.com/conconshop__",
+      "http://concon.uwu.ai/"
+    ],
+    "storeLinks": [
+      "https://concon.shop/"
+    ],
+    "catalogLinks": [
+      "https://x.com/conconshop__/status/2113782780685660470"
+    ],
+    "series": [
+      "Uma Musume Pretty Derby",
+      "Project Sekai: Colorful Stage!"
+    ],
+    "seriesConfirmed": [
+      "Uma Musume Pretty Derby"
+    ],
+    "merch": [
+      "Apparel & Shirts",
+      "Bags & Totes",
+      "Charms",
+      "Stickers",
+      "Prints",
+      "Lanyards"
+    ],
+    "images": [
+      {
+        "url": "./assets/catalogs/conconshop/catalog_1.jpg",
+        "caption": "Table 49 - Umazing Doro Shirt, Tote Bag, Desk Mat & Card Skins"
+      },
+      {
+        "url": "./assets/catalogs/conconshop/catalog_2.jpg",
+        "caption": "Acrylic Keychains, Mini Stickers, Peekers, Poster Prints & Lanyard"
+      }
+    ],
+    "profileImage": "./assets/avatars/conconshop.jpg",
+    "notes": "Table 49 for Sat & Sun. Free to join stamp rally with free prizes!"
   }
 ]

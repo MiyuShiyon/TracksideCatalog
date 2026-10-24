@@ -5,7 +5,10 @@
     "title": "Table 5 & 6 Sticker Stamp Rally",
     "fandom": "Uma Musume Pretty Derby",
     "hostBooth": "Table 5",
-    "booths": ["Table 5", "Table 6"],
+    "booths": [
+      "Table 5",
+      "Table 6"
+    ],
     "minTables": 2,
     "totalCost": null,
     "prize": "Two exclusive Halloween Uma Musume chibi stickers",
@@ -31,6 +34,7 @@
       "Table 1",
       "Table 2",
       "Table 12",
+      "Table 14 (Sun)",
       "Table 18",
       "Table 23",
       "Table 31 (Sat)",
