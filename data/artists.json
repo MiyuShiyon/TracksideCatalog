@@ -1515,7 +1515,7 @@
   {
     "id": "jaxcels",
     "conventionId": "trackside-2026",
-    "booth": "Table TBA",
+    "booth": "@jaxcels",
     "name": "Jax Nguyen (jaxcels)",
     "aliases": [
       "jaxcels",
@@ -1546,13 +1546,13 @@
       "Stickers"
     ],
     "images": [],
-    "profileImage": "",
-    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+    "profileImage": "./assets/avatars/jaxcels.jpg",
+    "notes": "Table TBA (@jaxcels). Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
   },
   {
     "id": "kurishay",
     "conventionId": "trackside-2026",
-    "booth": "Table TBA",
+    "booth": "@kurishay",
     "name": "chris (kurishay)",
     "aliases": [
       "kurishay",
@@ -1579,19 +1579,19 @@
       "Stickers"
     ],
     "images": [],
-    "profileImage": "",
-    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+    "profileImage": "./assets/avatars/kurishay.jpg",
+    "notes": "Table TBA (@kurishay). Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
   },
   {
     "id": "lazydaytee",
     "conventionId": "trackside-2026",
-    "booth": "Table TBA",
+    "booth": "Table 39",
     "name": "LazyDayIllustrations (lazydaytee)",
     "aliases": [
       "lazydaytee",
       "LazyDayIllustrations"
     ],
-    "summary": "Cute illustrations and enamel pins. Participating in the Uma 7th Live Happi Coat Stamp Rally at Cosplay Trackside with Uma Musume charms!",
+    "summary": "At Table 39 for Cosplay Trackside! Featuring Uma Musume charms, pins, and participating in the Uma 7th Live Stamp Rally & Special Crossover Stamp Rally.",
     "verified": false,
     "isNew": true,
     "commissions": "",
@@ -1615,8 +1615,8 @@
       "Stickers"
     ],
     "images": [],
-    "profileImage": "",
-    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside with Uma Musume charms and pins."
+    "profileImage": "./assets/avatars/lazydaytee.jpg",
+    "notes": "Table 39 all weekend (Sat & Sun). Participating in the Uma 7th Live Stamp Rally and the Special Crossover Stamp Rally!"
   },
   {
     "id": "jellisstuff",
@@ -1671,7 +1671,7 @@
   {
     "id": "norcerro",
     "conventionId": "trackside-2026",
-    "booth": "Table TBA",
+    "booth": "@norcerro",
     "name": "Norcel (norcerro)",
     "aliases": [
       "norcerro",
@@ -1699,8 +1699,8 @@
       "Stickers"
     ],
     "images": [],
-    "profileImage": "",
-    "notes": "Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
+    "profileImage": "./assets/avatars/norcerro.jpg",
+    "notes": "Table TBA (@norcerro). Participating in the Uma 7th Live Stamp Rally at Cosplay Trackside."
   },
   {
     "id": "lisuworks",

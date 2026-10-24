@@ -75,6 +75,9 @@ export const Store = {
       if (a.booth) {
         const raw = a.booth.trim().toUpperCase();
         this.artistsByBooth.set(raw, a);
+        if (raw.startsWith("@")) {
+          this.artistsByBooth.set(raw.slice(1), a);
+        }
         // Also index normalized variants like "5" or "TABLE5"
         const numOnly = raw.replace(/[^0-9]/g, "");
         if (numOnly) {
@@ -115,6 +118,10 @@ export const Store = {
   getArtistByBooth(booth) {
     if (!booth) return null;
     const clean = booth.trim().toUpperCase();
-    return this.artistsByBooth.get(clean) || null;
+    if (this.artistsByBooth.has(clean)) {
+      return this.artistsByBooth.get(clean);
+    }
+    const cleanId = booth.trim().replace(/^@/, "").toLowerCase();
+    return this.artistsById.get(cleanId) || null;
   }
 };

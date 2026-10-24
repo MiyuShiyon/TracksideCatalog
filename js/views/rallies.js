@@ -48,9 +48,15 @@ function renderRallyCard(rally) {
           <div style="display: flex; flex-wrap: wrap; gap: 6px;">
             ${(rally.booths || []).map(b => {
               const artist = Store.getArtistByBooth(b);
+              let label = b;
+              if (artist) {
+                const handle = b.replace(/^@/, "");
+                const cleanName = artist.name.replace(new RegExp(`\\s*\\(?@?${handle}\\)?`, "i"), "").trim();
+                label = `${b} · ${cleanName || artist.name}`;
+              }
               return `
                 <button class="tag-pill" data-booth-jump="${escapeHtml(b)}" title="${artist ? escapeHtml(artist.name) : b}" style="cursor: pointer; font-weight: 600;">
-                  ${escapeHtml(b)} ${artist ? `· ${escapeHtml(artist.name)}` : ""}
+                  ${escapeHtml(label)}
                 </button>
               `;
             }).join("")}
